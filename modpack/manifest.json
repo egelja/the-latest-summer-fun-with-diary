@@ -75,12 +75,44 @@
       }
     },
     {
+      "projectID": 223794,
+      "fileID": 3818045,
+      "required": true,
+      "__meta": {
+        "name": "Applied Energistics 2"
+      }
+    },
+    {
+      "projectID": 223852,
+      "fileID": 3807626,
+      "required": true,
+      "__meta": {
+        "name": "Storage Drawers"
+      }
+    },
+    {
+      "projectID": 224218,
+      "fileID": 3807656,
+      "required": true,
+      "__meta": {
+        "name": "Compact Machines"
+      }
+    },
+    {
       "projectID": 228525,
       "fileID": 3820189,
       "required": true,
       "__meta": {
         "name": "Bookshelf",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 228756,
+      "fileID": 3795374,
+      "required": true,
+      "__meta": {
+        "name": "Iron Chests"
       }
     },
     {
@@ -97,6 +129,15 @@
       "required": true,
       "__meta": {
         "name": "Immersive Engineering"
+      }
+    },
+    {
+      "projectID": 232758,
+      "fileID": 3818256,
+      "required": true,
+      "__meta": {
+        "name": "Cyclops Core",
+        "explicit": false
       }
     },
     {
@@ -129,6 +170,14 @@
       }
     },
     {
+      "projectID": 237664,
+      "fileID": 3792657,
+      "required": true,
+      "__meta": {
+        "name": "Iron Furnaces [FORGE]"
+      }
+    },
+    {
       "projectID": 241344,
       "fileID": 3754969,
       "required": true,
@@ -146,6 +195,26 @@
           393149,
           396234,
           228525
+        ]
+      }
+    },
+    {
+      "projectID": 242818,
+      "fileID": 3819273,
+      "required": true,
+      "__meta": {
+        "name": "CodeChicken Lib 1.8.+",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 245174,
+      "fileID": 3805611,
+      "required": true,
+      "__meta": {
+        "name": "Ender Storage 1.8.+",
+        "dependencies": [
+          242818
         ]
       }
     },
@@ -179,6 +248,14 @@
           247921,
           247921
         ]
+      }
+    },
+    {
+      "projectID": 250294,
+      "fileID": 3776175,
+      "required": true,
+      "__meta": {
+        "name": "Modular Routers"
       }
     },
     {
@@ -283,6 +360,17 @@
       }
     },
     {
+      "projectID": 290404,
+      "fileID": 3768462,
+      "required": true,
+      "__meta": {
+        "name": "Flopper",
+        "dependencies": [
+          232758
+        ]
+      }
+    },
+    {
       "projectID": 291737,
       "fileID": 3803492,
       "required": true,
@@ -340,6 +428,14 @@
       "__meta": {
         "name": "Patchouli",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 308380,
+      "fileID": 3797860,
+      "required": true,
+      "__meta": {
+        "name": "PackagedAuto"
       }
     },
     {
@@ -422,6 +518,14 @@
       }
     },
     {
+      "projectID": 342929,
+      "fileID": 3793844,
+      "required": true,
+      "__meta": {
+        "name": "Compressium"
+      }
+    },
+    {
       "projectID": 345973,
       "fileID": 3669260,
       "required": true,
@@ -430,6 +534,15 @@
         "dependencies": [
           342584
         ]
+      }
+    },
+    {
+      "projectID": 348521,
+      "fileID": 3782776,
+      "required": true,
+      "__meta": {
+        "name": "Cloth Config API (Fabric/Forge)",
+        "explicit": false
       }
     },
     {
@@ -455,6 +568,17 @@
       "required": true,
       "__meta": {
         "name": "Extreme sound muffler (Forge)"
+      }
+    },
+    {
+      "projectID": 376351,
+      "fileID": 3808242,
+      "required": true,
+      "__meta": {
+        "name": "Framed Compacting Drawers",
+        "dependencies": [
+          223852
+        ]
       }
     },
     {
@@ -487,6 +611,17 @@
         "name": "Create Plus",
         "dependencies": [
           328085
+        ]
+      }
+    },
+    {
+      "projectID": 381605,
+      "fileID": 3695464,
+      "required": true,
+      "__meta": {
+        "name": "Drawers Tooltip",
+        "dependencies": [
+          223852
         ]
       }
     },
@@ -559,6 +694,17 @@
       }
     },
     {
+      "projectID": 422301,
+      "fileID": 3807524,
+      "required": true,
+      "__meta": {
+        "name": "Sophisticated Backpacks",
+        "dependencies": [
+          618298
+        ]
+      }
+    },
+    {
       "projectID": 431725,
       "fileID": 3799046,
       "required": true,
@@ -599,12 +745,41 @@
       }
     },
     {
+      "projectID": 440985,
+      "fileID": 3608109,
+      "required": true,
+      "__meta": {
+        "name": "Wooden Hopper"
+      }
+    },
+    {
+      "projectID": 443900,
+      "fileID": 3819249,
+      "required": true,
+      "__meta": {
+        "name": "Pipez"
+      }
+    },
+    {
       "projectID": 454372,
       "fileID": 3773952,
       "required": true,
       "__meta": {
         "name": "SuperMartijn642's Core Lib",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 459929,
+      "fileID": 3817705,
+      "required": true,
+      "__meta": {
+        "name": "Applied Energistics 2 Wireless Terminals",
+        "dependencies": [
+          348521,
+          419699,
+          223794
+        ]
       }
     },
     {
@@ -615,6 +790,17 @@
         "name": "Create Stuff Additions",
         "dependencies": [
           328085
+        ]
+      }
+    },
+    {
+      "projectID": 480816,
+      "fileID": 3781652,
+      "required": true,
+      "__meta": {
+        "name": "DrawerFPS",
+        "dependencies": [
+          223852
         ]
       }
     },
@@ -751,6 +937,48 @@
       "required": true,
       "__meta": {
         "name": "Eccentric Tome"
+      }
+    },
+    {
+      "projectID": 609977,
+      "fileID": 3795991,
+      "required": true,
+      "__meta": {
+        "name": "AE2 Things [Forge]",
+        "dependencies": [
+          223794
+        ]
+      }
+    },
+    {
+      "projectID": 618298,
+      "fileID": 3819260,
+      "required": true,
+      "__meta": {
+        "name": "Sophisticated Core",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 619320,
+      "fileID": 3807523,
+      "required": true,
+      "__meta": {
+        "name": "Sophisticated Storage",
+        "dependencies": [
+          618298
+        ]
+      }
+    },
+    {
+      "projectID": 622112,
+      "fileID": 3817647,
+      "required": true,
+      "__meta": {
+        "name": "MEGA Cells",
+        "dependencies": [
+          223794
+        ]
       }
     },
     {
