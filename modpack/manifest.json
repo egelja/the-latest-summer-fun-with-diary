@@ -99,6 +99,14 @@
       }
     },
     {
+      "projectID": 227639,
+      "fileID": 3818688,
+      "required": true,
+      "__meta": {
+        "name": "The Twilight Forest"
+      }
+    },
+    {
       "projectID": 228525,
       "fileID": 3820189,
       "required": true,
@@ -208,6 +216,17 @@
       }
     },
     {
+      "projectID": 243121,
+      "fileID": 3800462,
+      "required": true,
+      "__meta": {
+        "name": "Quark",
+        "dependencies": [
+          250363
+        ]
+      }
+    },
+    {
       "projectID": 245174,
       "fileID": 3805611,
       "required": true,
@@ -226,6 +245,18 @@
         "name": "Morph-o-Tool",
         "dependencies": [
           250363
+        ]
+      }
+    },
+    {
+      "projectID": 247560,
+      "fileID": 3820441,
+      "required": true,
+      "__meta": {
+        "name": "Oh The Biomes You'll Go",
+        "dependencies": [
+          563928,
+          563928
         ]
       }
     },
@@ -265,6 +296,14 @@
       "__meta": {
         "name": "AutoRegLib",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 252848,
+      "fileID": 3684917,
+      "required": true,
+      "__meta": {
+        "name": "Nature's Compass"
       }
     },
     {
@@ -606,6 +645,14 @@
       }
     },
     {
+      "projectID": 377448,
+      "fileID": 3807783,
+      "required": true,
+      "__meta": {
+        "name": "Beyond Earth (Forge)"
+      }
+    },
+    {
       "projectID": 377652,
       "fileID": 3818603,
       "required": true,
@@ -636,6 +683,15 @@
         "dependencies": [
           223852
         ]
+      }
+    },
+    {
+      "projectID": 388172,
+      "fileID": 3819966,
+      "required": true,
+      "__meta": {
+        "name": "GeckoLib",
+        "explicit": false
       }
     },
     {
@@ -844,6 +900,14 @@
       }
     },
     {
+      "projectID": 491794,
+      "fileID": 3764373,
+      "required": true,
+      "__meta": {
+        "name": "Explorer's Compass"
+      }
+    },
+    {
       "projectID": 499980,
       "fileID": 3819295,
       "required": true,
@@ -899,6 +963,14 @@
       }
     },
     {
+      "projectID": 537490,
+      "fileID": 3747147,
+      "required": true,
+      "__meta": {
+        "name": "The Wild Update 1.19 [FORGE]"
+      }
+    },
+    {
       "projectID": 549381,
       "fileID": 3785487,
       "required": true,
@@ -931,6 +1003,15 @@
           454372,
           438332
         ]
+      }
+    },
+    {
+      "projectID": 563928,
+      "fileID": 3816497,
+      "required": true,
+      "__meta": {
+        "name": "TerraBlender (Forge)",
+        "explicit": false
       }
     },
     {
@@ -1019,6 +1100,17 @@
         "name": "Thermal Integration",
         "dependencies": [
           222880
+        ]
+      }
+    },
+    {
+      "projectID": 627986,
+      "fileID": 3817549,
+      "required": true,
+      "__meta": {
+        "name": "Naturalist",
+        "dependencies": [
+          388172
         ]
       }
     }
