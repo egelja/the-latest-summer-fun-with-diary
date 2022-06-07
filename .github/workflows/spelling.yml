@@ -1,0 +1,59 @@
+name: Spell checking
+on:
+  pull_request_target:
+  push:
+  issue_comment:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  spelling:
+    name: Spell checking
+    runs-on: ubuntu-latest
+    steps:
+    # Checkout
+    - name: Checkout and merge PR
+      if: "contains(github.event_name, 'pull_request')"
+      uses: actions/checkout@v2
+      with:
+        ref: refs/pull/${{github.event.pull_request.number}}/merge
+        fetch-depth: 5
+
+    - name: Checkout repo
+      if: "!contains(github.event_name, 'pull_request')"
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 5
+
+    # Run action
+    - name: Check spelling
+      uses: check-spelling/check-spelling@prerelease
+      with:
+        experimental_apply_changes_via_bot: 1
+        extra_dictionaries:
+          cspell:bash/bash-words.txt
+          cspell:java/java.txt
+          cspell:companies/companies.txt
+          cspell:en_GB/src/wordsEnGb.txt
+          cspell:filetypes/filetypes.txt
+          cspell:fonts/fonts.txt
+          cspell:fullstack/fullstack.txt
+          cspell:html/html.txt
+
+    # Prepare the Pull Request Payload artifact
+    - name: Prepare Pull Request Payload artifact
+      id: prepare-artifact
+      if: always() && github.event_name == 'pull_request'
+      continue-on-error: true
+      run: cat $GITHUB_EVENT_PATH | jq '.pull_request' > pull_request_payload.json
+
+    # Only runs if there is an artifact to upload
+    - name: Upload a Build Artifact
+      if: always() && steps.prepare-artifact.outcome == 'success'
+      continue-on-error: true
+      uses: actions/upload-artifact@v2
+      with:
+        name: pull-request-payload
+        path: pull_request_payload.json

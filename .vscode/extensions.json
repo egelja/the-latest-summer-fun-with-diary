@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "aaron-bond.better-comments",
+    "mrthomas20121.zenscript",
+    "streetsidesoftware.code-spell-checker",
+    "editorconfig.editorconfig",
+    "elypia.magick-image-reader",
+    "tamasfe.even-better-toml",
+    "github.vscode-pull-request-github",
+    "gruntfuggly.todo-tree",
+    "redhat.vscode-yaml"
+  ]
+}

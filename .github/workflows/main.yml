@@ -1,9 +1,10 @@
-name: main
+name: Build and Push
 
 on:
+  workflow_dispatch:
   push:
     tags:
-      - 'v*'
+      - "v*"
 
 env:
   PROJECT_ID: "123456"
@@ -15,20 +16,43 @@ jobs:
       projectname: ${{ steps.info.outputs.projectname }}
       version: ${{ steps.info.outputs.version }}
       tag: ${{ steps.version.outputs.tag }}
+      release-type: ${{ steps.release-type.outputs.type }}
+      pre-release: ${{ steps.release-type.outputs.pre-release }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Get modpack info
         id: info
         run: |
-            manifestjson=`cat ./modpack/manifest.json`
-            projectname=`echo $(jq -r '.name' <<< "$manifestjson")`
-            echo "::set-output name=projectname::$projectname"
-            version=`echo $(jq -r '.minecraft.version' <<< "$manifestjson")`
-            echo "::set-output name=version::$version"
+          manifestjson=`cat ./modpack/manifest.json`
+          projectname=`echo $(jq -r '.name' <<< "$manifestjson")`
+          echo "::set-output name=projectname::$projectname"
+          version=`echo $(jq -r '.minecraft.version' <<< "$manifestjson")`
+          echo "::set-output name=version::$version"
       - name: Get tag
         id: version
         uses: "WyriHaximus/github-action-get-previous-tag@v1"
+      - name: Get release type
+        id: release-type
+        run: |
+          rel_type="release"
+          prerelease=false
+          case "${{ steps.version.outputs.tag }}" in
+            *alpha*)
+              rel_type="alpha"
+              prerelease=true
+              ;;
+            *beta*)
+              rel_type="beta"
+              prerelease=true
+              ;;
+            *)
+              rel_type="release"
+              prerelease=false
+              ;;
+          esac
+          echo "::set-output name=type::$rel_type"
+          echo "::set-output name=pre-release::$prerelease"
 
   changelog:
     runs-on: ubuntu-latest
@@ -39,11 +63,14 @@ jobs:
         uses: actions/checkout@v2
       - name: Generate changelog
         id: changelog
-        uses: heinrichreimer/github-changelog-generator-action@v2.1.1
+        uses: metcalfc/changelog-generator@v1.0.0
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          output: CHANGELOG.md
-          stripGeneratorNotice: true
+          myToken: ${{ secrets.GITHUB_TOKEN }}
+      - name: Write changelog to file
+        uses: DamianReeves/write-file-action@v1.0
+        with:
+          path: ./CHANGELOG.md
+          contents: "${{ steps.changelog.outputs.changelog }}"
       - name: Store changelog
         uses: actions/upload-artifact@v2
         with:
@@ -53,6 +80,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     needs: [changelog, modpack-info]
+    outputs:
+      filename_spaces: ${{ steps.filename.outputs.spaces }}
+      filename_no_spaces: ${{ steps.filename.outputs.no_spaces }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -66,21 +96,33 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: changelog
-      - name: Move changelog
-        run:  mv ./CHANGELOG.md ./modpack/CHANGELOG.md
+      - name: Copy important files
+        run: |
+          cp ./CHANGELOG.md ./modpack/overrides/CHANGELOG.md
+          cp ./README.md ./modpack/overrides/README.md
+          cp ./LICENSE.md ./modpack/overrides/LICENSE.md
+          cp ./TODO.md ./modpack/overrides/TODO.md
+          cp ./CREDITS.md ./modpack/overrides/CREDITS.md
       - name: Export modpack
         run: |
           sudo chmod +x ./pax
           ./pax export
+      - name: Remove spaces from filename
+        id: filename
+        run: |
+          spaces='${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}'
+          no_spaces=${spaces//[^a-zA-Z0-9.()\-]/_}
+          echo "::set-output name=spaces::$spaces"
+          echo "::set-output name=no_spaces::$no_spaces"
       - name: Rename zip
         run: |
-          mv .out/${{ needs.modpack-info.outputs.projectname }}.zip .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
+          mv '.out/${{ needs.modpack-info.outputs.projectname }}.zip' '.out/${{ steps.filename.outputs.no_spaces }}.zip'
       - name: Upload zip
         uses: actions/upload-artifact@v2
         with:
           name: modpack
-          path: .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
-  
+          path: .out/${{ steps.filename.outputs.no_spaces }}.zip
+
   release-github:
     runs-on: ubuntu-latest
     needs: [build, changelog, modpack-info]
@@ -97,7 +139,8 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           body_path: CHANGELOG.md
-          files: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
+          files: ${{ needs.build.outputs.filename_no_spaces }}.zip
+          prerelease: "${{ needs.modpack-info.outputs.pre-release }}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -109,24 +152,15 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: modpack
-      - name: Get release type
-        id: release-type
-        run: |
-          rel_type="release"
-          case "${{ needs.modpack-info.outputs.tag }}" in
-            *alpha*) rel_type="alpha" ;;
-            *beta*) rel_type="beta" ;;
-            *) rel_type="release" ;;
-          esac
-          echo "::set-output name=type::$rel_type"
       - name: Create release
         uses: itsmeow/curseforge-upload@v3
         with:
           token: ${{ secrets.CF_API_TOKEN }}
           project_id: ${{ env.PROJECT_ID }}
           game_endpoint: minecraft
-          file_path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
+          file_path: ${{ needs.build.outputs.filename_no_spaces }}.zip
+          display_name: ${{ needs.build.outputs.filename_spaces }}
           changelog: "${{ needs.changelog.outputs.changelog }}"
           changelog_type: markdown
-          game_versions: "Minecraft ${{ needs.modpack-info.outputs.version }}" 
-          release_type: ${{ steps.release-type.outputs.type }}
+          game_versions: ${{ needs.modpack-info.outputs.version }}
+          release_type: ${{ needs.modpack-info.outputs.release-type }}
