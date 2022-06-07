@@ -24,6 +24,14 @@
       }
     },
     {
+      "projectID": 60089,
+      "fileID": 3578801,
+      "required": true,
+      "__meta": {
+        "name": "Mouse Tweaks"
+      }
+    },
+    {
       "projectID": 69162,
       "fileID": 3803484,
       "required": true,
@@ -132,6 +140,14 @@
       }
     },
     {
+      "projectID": 231275,
+      "fileID": 3548400,
+      "required": true,
+      "__meta": {
+        "name": "Ding"
+      }
+    },
+    {
       "projectID": 231951,
       "fileID": 3755665,
       "required": true,
@@ -146,6 +162,17 @@
       "__meta": {
         "name": "Cyclops Core",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 233071,
+      "fileID": 3584842,
+      "required": true,
+      "__meta": {
+        "name": "Crafting Tweaks",
+        "dependencies": [
+          531761
+        ]
       }
     },
     {
@@ -183,6 +210,53 @@
       "required": true,
       "__meta": {
         "name": "Iron Furnaces [FORGE]"
+      }
+    },
+    {
+      "projectID": 237701,
+      "fileID": 3679966,
+      "required": true,
+      "__meta": {
+        "name": "ReAuth"
+      }
+    },
+    {
+      "projectID": 238222,
+      "fileID": 3788739,
+      "required": true,
+      "__meta": {
+        "name": "Just Enough Items (JEI)",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 238372,
+      "fileID": 3593906,
+      "required": true,
+      "__meta": {
+        "name": "Neat"
+      }
+    },
+    {
+      "projectID": 238911,
+      "fileID": 3795235,
+      "required": true,
+      "__meta": {
+        "name": "Grappling Hook Mod",
+        "dependencies": [
+          348521
+        ]
+      }
+    },
+    {
+      "projectID": 240630,
+      "fileID": 3807822,
+      "required": true,
+      "__meta": {
+        "name": "Just Enough Resources (JER)",
+        "dependencies": [
+          238222
+        ]
       }
     },
     {
@@ -238,6 +312,14 @@
       }
     },
     {
+      "projectID": 245211,
+      "fileID": 3671753,
+      "required": true,
+      "__meta": {
+        "name": "The One Probe"
+      }
+    },
+    {
       "projectID": 245287,
       "fileID": 3740184,
       "required": true,
@@ -270,6 +352,14 @@
       }
     },
     {
+      "projectID": 248787,
+      "fileID": 3686482,
+      "required": true,
+      "__meta": {
+        "name": "AppleSkin"
+      }
+    },
+    {
       "projectID": 250277,
       "fileID": 3814671,
       "required": true,
@@ -299,6 +389,36 @@
       }
     },
     {
+      "projectID": 250398,
+      "fileID": 3758406,
+      "required": true,
+      "__meta": {
+        "name": "Controlling"
+      }
+    },
+    {
+      "projectID": 250419,
+      "fileID": 3821023,
+      "required": true,
+      "__meta": {
+        "name": "Enchantment Descriptions",
+        "dependencies": [
+          228525
+        ]
+      }
+    },
+    {
+      "projectID": 251407,
+      "fileID": 3666468,
+      "required": true,
+      "__meta": {
+        "name": "Client Tweaks",
+        "dependencies": [
+          531761
+        ]
+      }
+    },
+    {
       "projectID": 252848,
       "fileID": 3684917,
       "required": true,
@@ -315,6 +435,33 @@
       }
     },
     {
+      "projectID": 261251,
+      "fileID": 3800660,
+      "required": true,
+      "__meta": {
+        "name": "Bad Wither No Cookie - Reloaded"
+      }
+    },
+    {
+      "projectID": 263420,
+      "fileID": 3819354,
+      "required": true,
+      "__meta": {
+        "name": "Xaero's Minimap"
+      }
+    },
+    {
+      "projectID": 265917,
+      "fileID": 3812175,
+      "required": true,
+      "__meta": {
+        "name": "JEI Integration",
+        "dependencies": [
+          238222
+        ]
+      }
+    },
+    {
       "projectID": 266515,
       "fileID": 3819882,
       "required": true,
@@ -323,6 +470,17 @@
         "dependencies": [
           287342,
           306770
+        ]
+      }
+    },
+    {
+      "projectID": 271740,
+      "fileID": 3717855,
+      "required": true,
+      "__meta": {
+        "name": "Toast Control",
+        "dependencies": [
+          283644
         ]
       }
     },
@@ -346,6 +504,14 @@
       }
     },
     {
+      "projectID": 274259,
+      "fileID": 3674344,
+      "required": true,
+      "__meta": {
+        "name": "Carry On"
+      }
+    },
+    {
       "projectID": 276829,
       "fileID": 3742633,
       "required": true,
@@ -359,6 +525,14 @@
       "required": true,
       "__meta": {
         "name": "Comforts (Forge)"
+      }
+    },
+    {
+      "projectID": 277625,
+      "fileID": 3749805,
+      "required": true,
+      "__meta": {
+        "name": "QuickHomes"
       }
     },
     {
@@ -429,6 +603,14 @@
       }
     },
     {
+      "projectID": 291788,
+      "fileID": 3697613,
+      "required": true,
+      "__meta": {
+        "name": "Server Tab Info"
+      }
+    },
+    {
       "projectID": 293425,
       "fileID": 3724564,
       "required": true,
@@ -447,6 +629,14 @@
       "__meta": {
         "name": "A Lib",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 297038,
+      "fileID": 3669097,
+      "required": true,
+      "__meta": {
+        "name": "CraftPresence"
       }
     },
     {
@@ -517,6 +707,22 @@
       }
     },
     {
+      "projectID": 315007,
+      "fileID": 3752140,
+      "required": true,
+      "__meta": {
+        "name": "QuickSpawns"
+      }
+    },
+    {
+      "projectID": 315037,
+      "fileID": 3749807,
+      "required": true,
+      "__meta": {
+        "name": "QuickTeleports"
+      }
+    },
+    {
       "projectID": 317716,
       "fileID": 3601975,
       "required": true,
@@ -529,11 +735,31 @@
       }
     },
     {
+      "projectID": 317780,
+      "fileID": 3819368,
+      "required": true,
+      "__meta": {
+        "name": "Xaero's World Map"
+      }
+    },
+    {
       "projectID": 319194,
       "fileID": 3759157,
       "required": true,
       "__meta": {
         "name": "Glassential"
+      }
+    },
+    {
+      "projectID": 325492,
+      "fileID": 3669531,
+      "required": true,
+      "__meta": {
+        "name": "Light Overlay (Rift/Forge/Fabric)",
+        "dependencies": [
+          419699,
+          348521
+        ]
       }
     },
     {
@@ -620,6 +846,14 @@
       "__meta": {
         "name": "Kotlin for Forge",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 358700,
+      "fileID": 3545748,
+      "required": true,
+      "__meta": {
+        "name": "More Dragon Eggs"
       }
     },
     {
@@ -748,6 +982,18 @@
       }
     },
     {
+      "projectID": 402924,
+      "fileID": 3732985,
+      "required": true,
+      "__meta": {
+        "name": "Chunk Loaders",
+        "dependencies": [
+          438332,
+          454372
+        ]
+      }
+    },
+    {
       "projectID": 406959,
       "fileID": 3790304,
       "required": true,
@@ -766,6 +1012,17 @@
         "name": "Supplementaries",
         "dependencies": [
           499980
+        ]
+      }
+    },
+    {
+      "projectID": 417645,
+      "fileID": 3670345,
+      "required": true,
+      "__meta": {
+        "name": "Just Enough Professions (JEP)",
+        "dependencies": [
+          238222
         ]
       }
     },
@@ -854,12 +1111,47 @@
       }
     },
     {
+      "projectID": 449140,
+      "fileID": 3669717,
+      "required": true,
+      "__meta": {
+        "name": "Anti Mob Griefing"
+      }
+    },
+    {
+      "projectID": 450270,
+      "fileID": 3669229,
+      "required": true,
+      "__meta": {
+        "name": "Hand Over Your Items (Forge)",
+        "dependencies": [
+          342584
+        ]
+      }
+    },
+    {
       "projectID": 454372,
       "fileID": 3773952,
       "required": true,
       "__meta": {
         "name": "SuperMartijn642's Core Lib",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 457570,
+      "fileID": 3721946,
+      "required": true,
+      "__meta": {
+        "name": "Configured"
+      }
+    },
+    {
+      "projectID": 459701,
+      "fileID": 3803098,
+      "required": true,
+      "__meta": {
+        "name": "Catalogue"
       }
     },
     {
@@ -924,6 +1216,17 @@
       }
     },
     {
+      "projectID": 494206,
+      "fileID": 3739762,
+      "required": true,
+      "__meta": {
+        "name": "Create Chunkloading",
+        "dependencies": [
+          328085
+        ]
+      }
+    },
+    {
       "projectID": 499980,
       "fileID": 3819295,
       "required": true,
@@ -968,6 +1271,23 @@
       }
     },
     {
+      "projectID": 517272,
+      "fileID": 3806656,
+      "required": true,
+      "__meta": {
+        "name": "Simple Shops"
+      }
+    },
+    {
+      "projectID": 531761,
+      "fileID": 3767671,
+      "required": true,
+      "__meta": {
+        "name": "Balm (Forge Edition)",
+        "explicit": false
+      }
+    },
+    {
       "projectID": 531834,
       "fileID": 3806807,
       "required": true,
@@ -976,6 +1296,14 @@
         "dependencies": [
           328085
         ]
+      }
+    },
+    {
+      "projectID": 532286,
+      "fileID": 3820697,
+      "required": true,
+      "__meta": {
+        "name": "Just Enough Effect Descriptions (JEED)"
       }
     },
     {
