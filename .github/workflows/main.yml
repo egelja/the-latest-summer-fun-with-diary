@@ -93,7 +93,7 @@ jobs:
           file: "pax"
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Download changelog
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: changelog
       - name: Copy important files
@@ -128,11 +128,11 @@ jobs:
     needs: [build, changelog, modpack-info]
     steps:
       - name: Download modpack
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: modpack
       - name: Download changelog
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: changelog
       - name: Create release
@@ -149,7 +149,7 @@ jobs:
     needs: [build, changelog, modpack-info]
     steps:
       - name: Download modpack
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: modpack
       - name: Create release
