@@ -20,7 +20,7 @@ jobs:
       pre-release: ${{ steps.release-type.outputs.pre-release }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Get modpack info
         id: info
         run: |
@@ -60,7 +60,7 @@ jobs:
       changelog: ${{ steps.changelog.outputs.changelog }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Generate changelog
         id: changelog
         uses: metcalfc/changelog-generator@v3.0.0
@@ -85,7 +85,7 @@ jobs:
       filename_no_spaces: ${{ steps.filename.outputs.no_spaces }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Download PAX
         uses: dsaltares/fetch-gh-release-asset@master
         with:
