@@ -229,6 +229,18 @@
       }
     },
     {
+      "projectID": 235595,
+      "fileID": 3646750,
+      "required": true,
+      "__meta": {
+        "name": "Not Enough Wands",
+        "dependencies": [
+          326041,
+          233105
+        ]
+      }
+    },
+    {
       "projectID": 237307,
       "fileID": 3738144,
       "required": true,
@@ -304,6 +316,14 @@
       }
     },
     {
+      "projectID": 239286,
+      "fileID": 3819253,
+      "required": true,
+      "__meta": {
+        "name": "Cyclic"
+      }
+    },
+    {
       "projectID": 240630,
       "fileID": 3807822,
       "required": true,
@@ -312,6 +332,14 @@
         "dependencies": [
           238222
         ]
+      }
+    },
+    {
+      "projectID": 241319,
+      "fileID": 3820011,
+      "required": true,
+      "__meta": {
+        "name": "Reliquary Reincarnations"
       }
     },
     {
@@ -842,6 +870,19 @@
       }
     },
     {
+      "projectID": 313970,
+      "fileID": 3781524,
+      "required": true,
+      "__meta": {
+        "name": "Apotheosis",
+        "dependencies": [
+          250419,
+          283644,
+          306770
+        ]
+      }
+    },
+    {
       "projectID": 315007,
       "fileID": 3752140,
       "required": true,
@@ -930,6 +971,14 @@
       }
     },
     {
+      "projectID": 340991,
+      "fileID": 3735857,
+      "required": true,
+      "__meta": {
+        "name": "Druidcraft"
+      }
+    },
+    {
       "projectID": 342584,
       "fileID": 3681237,
       "required": true,
@@ -964,6 +1013,17 @@
       "__meta": {
         "name": "Cloth Config API (Fabric/Forge)",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 349447,
+      "fileID": 3790294,
+      "required": true,
+      "__meta": {
+        "name": "Ensorcellation",
+        "dependencies": [
+          69162
+        ]
       }
     },
     {
@@ -1005,6 +1065,19 @@
       "required": true,
       "__meta": {
         "name": "More Dragon Eggs"
+      }
+    },
+    {
+      "projectID": 361026,
+      "fileID": 3809335,
+      "required": true,
+      "__meta": {
+        "name": "Occultism",
+        "dependencies": [
+          306770,
+          388172,
+          309927
+        ]
       }
     },
     {
@@ -1188,6 +1261,19 @@
       }
     },
     {
+      "projectID": 401955,
+      "fileID": 3814106,
+      "required": true,
+      "__meta": {
+        "name": "Ars Nouveau",
+        "dependencies": [
+          309927,
+          306770,
+          388172
+        ]
+      }
+    },
+    {
       "projectID": 402924,
       "fileID": 3732985,
       "required": true,
@@ -1348,6 +1434,14 @@
       "__meta": {
         "name": "SuperMartijn642's Config Lib",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 438447,
+      "fileID": 3785992,
+      "required": true,
+      "__meta": {
+        "name": "Enhanced Celestials - Blood, Blue, & Harvest (Super) Moons"
       }
     },
     {
@@ -1522,6 +1616,18 @@
         "name": "DrawerFPS",
         "dependencies": [
           223852
+        ]
+      }
+    },
+    {
+      "projectID": 484064,
+      "fileID": 3788643,
+      "required": true,
+      "__meta": {
+        "name": "Malum",
+        "dependencies": [
+          616457,
+          309927
         ]
       }
     },
@@ -1820,6 +1926,23 @@
         "dependencies": [
           223794
         ]
+      }
+    },
+    {
+      "projectID": 616457,
+      "fileID": 3768197,
+      "required": true,
+      "__meta": {
+        "name": "OrtusLib",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 616485,
+      "fileID": 3807589,
+      "required": true,
+      "__meta": {
+        "name": "Incorporeal 3"
       }
     },
     {
