@@ -1281,3 +1281,15 @@ SGS
 shroomloin
 vanillacookbook
 voline
+Compressium
+DFU
+JEP
+Kotlin
+Materialis
+Pipez
+returncode
+Runelic
+stderr
+stdin
+stdout
+urls
