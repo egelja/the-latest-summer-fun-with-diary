@@ -44,6 +44,26 @@
       }
     },
     {
+      "projectID": 74072,
+      "fileID": 3784732,
+      "required": true,
+      "__meta": {
+        "name": "Tinkers Construct",
+        "dependencies": [
+          74924
+        ]
+      }
+    },
+    {
+      "projectID": 74924,
+      "fileID": 3784500,
+      "required": true,
+      "__meta": {
+        "name": "Mantle",
+        "explicit": false
+      }
+    },
+    {
       "projectID": 222880,
       "fileID": 3803495,
       "required": true,
@@ -52,6 +72,15 @@
         "dependencies": [
           69162
         ]
+      }
+    },
+    {
+      "projectID": 228525,
+      "fileID": 3820189,
+      "required": true,
+      "__meta": {
+        "name": "Bookshelf",
+        "explicit": false
       }
     },
     {
@@ -92,11 +121,43 @@
       }
     },
     {
+      "projectID": 237307,
+      "fileID": 3738144,
+      "required": true,
+      "__meta": {
+        "name": "Cosmetic Armor Reworked"
+      }
+    },
+    {
       "projectID": 241344,
       "fileID": 3754969,
       "required": true,
       "__meta": {
         "name": "Snad"
+      }
+    },
+    {
+      "projectID": 242195,
+      "fileID": 3753813,
+      "required": true,
+      "__meta": {
+        "name": "Dark Utilities",
+        "dependencies": [
+          393149,
+          396234,
+          228525
+        ]
+      }
+    },
+    {
+      "projectID": 245287,
+      "fileID": 3740184,
+      "required": true,
+      "__meta": {
+        "name": "Morph-o-Tool",
+        "dependencies": [
+          250363
+        ]
       }
     },
     {
@@ -118,6 +179,15 @@
           247921,
           247921
         ]
+      }
+    },
+    {
+      "projectID": 250363,
+      "fileID": 3642382,
+      "required": true,
+      "__meta": {
+        "name": "AutoRegLib",
+        "explicit": false
       }
     },
     {
@@ -165,6 +235,14 @@
       "required": true,
       "__meta": {
         "name": "More Beautiful Plates [Forge]"
+      }
+    },
+    {
+      "projectID": 276951,
+      "fileID": 3682307,
+      "required": true,
+      "__meta": {
+        "name": "Comforts (Forge)"
       }
     },
     {
@@ -248,12 +326,50 @@
       }
     },
     {
+      "projectID": 302113,
+      "fileID": 3704104,
+      "required": true,
+      "__meta": {
+        "name": "Effortless Building"
+      }
+    },
+    {
       "projectID": 306770,
       "fileID": 3809917,
       "required": true,
       "__meta": {
         "name": "Patchouli",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 308989,
+      "fileID": 3650485,
+      "required": true,
+      "__meta": {
+        "name": "Caelus API (Forge)",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 309927,
+      "fileID": 3748873,
+      "required": true,
+      "__meta": {
+        "name": "Curios API (Forge)",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 317716,
+      "fileID": 3601975,
+      "required": true,
+      "__meta": {
+        "name": "Curious Elytra (Forge)",
+        "dependencies": [
+          309927,
+          308989
+        ]
       }
     },
     {
@@ -325,6 +441,45 @@
       }
     },
     {
+      "projectID": 351264,
+      "fileID": 3768446,
+      "required": true,
+      "__meta": {
+        "name": "Kotlin for Forge",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 363363,
+      "fileID": 3813983,
+      "required": true,
+      "__meta": {
+        "name": "Extreme sound muffler (Forge)"
+      }
+    },
+    {
+      "projectID": 376876,
+      "fileID": 3806549,
+      "required": true,
+      "__meta": {
+        "name": "Tinkers' Reforged",
+        "dependencies": [
+          74072
+        ]
+      }
+    },
+    {
+      "projectID": 377652,
+      "fileID": 3818603,
+      "required": true,
+      "__meta": {
+        "name": "Materialis",
+        "dependencies": [
+          74072
+        ]
+      }
+    },
+    {
       "projectID": 377835,
       "fileID": 3763686,
       "required": true,
@@ -333,6 +488,43 @@
         "dependencies": [
           328085
         ]
+      }
+    },
+    {
+      "projectID": 388908,
+      "fileID": 3807754,
+      "required": true,
+      "__meta": {
+        "name": "Simple Planes (Forge)"
+      }
+    },
+    {
+      "projectID": 393149,
+      "fileID": 3683668,
+      "required": true,
+      "__meta": {
+        "name": "Runelic",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 394535,
+      "fileID": 3773710,
+      "required": true,
+      "__meta": {
+        "name": "Trash Cans",
+        "dependencies": [
+          454372
+        ]
+      }
+    },
+    {
+      "projectID": 396234,
+      "fileID": 3683674,
+      "required": true,
+      "__meta": {
+        "name": "Pig Pen Cipher",
+        "explicit": false
       }
     },
     {
@@ -355,6 +547,15 @@
         "dependencies": [
           499980
         ]
+      }
+    },
+    {
+      "projectID": 419699,
+      "fileID": 3807924,
+      "required": true,
+      "__meta": {
+        "name": "Architectury API (Fabric/Forge)",
+        "explicit": false
       }
     },
     {
@@ -387,6 +588,14 @@
           328085,
           486392
         ]
+      }
+    },
+    {
+      "projectID": 440047,
+      "fileID": 3728574,
+      "required": true,
+      "__meta": {
+        "name": "Customizable Elytra"
       }
     },
     {
@@ -439,6 +648,18 @@
       }
     },
     {
+      "projectID": 509575,
+      "fileID": 3745494,
+      "required": true,
+      "__meta": {
+        "name": "Observable",
+        "dependencies": [
+          351264,
+          419699
+        ]
+      }
+    },
+    {
       "projectID": 510656,
       "fileID": 3774042,
       "required": true,
@@ -474,6 +695,17 @@
       }
     },
     {
+      "projectID": 552642,
+      "fileID": 3803494,
+      "required": true,
+      "__meta": {
+        "name": "Tool's Complement",
+        "dependencies": [
+          69162
+        ]
+      }
+    },
+    {
       "projectID": 558998,
       "fileID": 3736072,
       "required": true,
@@ -483,6 +715,42 @@
           454372,
           438332
         ]
+      }
+    },
+    {
+      "projectID": 570050,
+      "fileID": 3818773,
+      "required": true,
+      "__meta": {
+        "name": "Little Logistics"
+      }
+    },
+    {
+      "projectID": 571264,
+      "fileID": 3767303,
+      "required": true,
+      "__meta": {
+        "name": "Spyglass Improvements: Zoom, Quick Access... [Fabric/Forge]"
+      }
+    },
+    {
+      "projectID": 594563,
+      "fileID": 3814120,
+      "required": true,
+      "__meta": {
+        "name": "Little Contraptions",
+        "dependencies": [
+          570050,
+          328085
+        ]
+      }
+    },
+    {
+      "projectID": 597522,
+      "fileID": 3769039,
+      "required": true,
+      "__meta": {
+        "name": "Eccentric Tome"
       }
     },
     {
