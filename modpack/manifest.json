@@ -16,6 +16,14 @@
   "name": "The Latest Summer Fun: Extremely Neat Brand New Edition (With Dairy!)",
   "files": [
     {
+      "projectID": 55438,
+      "fileID": 3683524,
+      "required": true,
+      "__meta": {
+        "name": "MrCrayfish's Furniture Mod"
+      }
+    },
+    {
       "projectID": 69162,
       "fileID": 3803484,
       "required": true,
@@ -44,6 +52,14 @@
         "dependencies": [
           69162
         ]
+      }
+    },
+    {
+      "projectID": 231095,
+      "fileID": 3813904,
+      "required": true,
+      "__meta": {
+        "name": "Chisels & Bits - For Forge"
       }
     },
     {
@@ -136,6 +152,22 @@
       }
     },
     {
+      "projectID": 272755,
+      "fileID": 3742572,
+      "required": true,
+      "__meta": {
+        "name": "More Beautiful Buttons"
+      }
+    },
+    {
+      "projectID": 276829,
+      "fileID": 3742633,
+      "required": true,
+      "__meta": {
+        "name": "More Beautiful Plates [Forge]"
+      }
+    },
+    {
       "projectID": 281849,
       "fileID": 3815728,
       "required": true,
@@ -225,6 +257,14 @@
       }
     },
     {
+      "projectID": 319194,
+      "fileID": 3759157,
+      "required": true,
+      "__meta": {
+        "name": "Glassential"
+      }
+    },
+    {
       "projectID": 326041,
       "fileID": 3813643,
       "required": true,
@@ -257,6 +297,34 @@
       }
     },
     {
+      "projectID": 342584,
+      "fileID": 3681237,
+      "required": true,
+      "__meta": {
+        "name": "Collective (Forge)",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 345973,
+      "fileID": 3669260,
+      "required": true,
+      "__meta": {
+        "name": "Cycle Paintings (Forge)",
+        "dependencies": [
+          342584
+        ]
+      }
+    },
+    {
+      "projectID": 350727,
+      "fileID": 3756811,
+      "required": true,
+      "__meta": {
+        "name": "Joy of Painting"
+      }
+    },
+    {
       "projectID": 377835,
       "fileID": 3763686,
       "required": true,
@@ -275,6 +343,17 @@
         "name": "Thermal Locomotion",
         "dependencies": [
           222880
+        ]
+      }
+    },
+    {
+      "projectID": 412082,
+      "fileID": 3819452,
+      "required": true,
+      "__meta": {
+        "name": "Supplementaries",
+        "dependencies": [
+          499980
         ]
       }
     },
@@ -340,6 +419,15 @@
       }
     },
     {
+      "projectID": 499980,
+      "fileID": 3819295,
+      "required": true,
+      "__meta": {
+        "name": "Selene Lib",
+        "explicit": false
+      }
+    },
+    {
       "projectID": 509285,
       "fileID": 3757571,
       "required": true,
@@ -382,6 +470,18 @@
         "dependencies": [
           281849,
           328085
+        ]
+      }
+    },
+    {
+      "projectID": 558998,
+      "fileID": 3736072,
+      "required": true,
+      "__meta": {
+        "name": "Re-chiseled",
+        "dependencies": [
+          454372,
+          438332
         ]
       }
     },
