@@ -165,6 +165,14 @@
       }
     },
     {
+      "projectID": 233019,
+      "fileID": 3798941,
+      "required": true,
+      "__meta": {
+        "name": "AI Improvements"
+      }
+    },
+    {
       "projectID": 233071,
       "fileID": 3584842,
       "required": true,
@@ -435,6 +443,14 @@
       }
     },
     {
+      "projectID": 256717,
+      "fileID": 3757581,
+      "required": true,
+      "__meta": {
+        "name": "Clumps"
+      }
+    },
+    {
       "projectID": 261251,
       "fileID": 3800660,
       "required": true,
@@ -504,6 +520,14 @@
       }
     },
     {
+      "projectID": 273279,
+      "fileID": 3584113,
+      "required": true,
+      "__meta": {
+        "name": "AntiGhost"
+      }
+    },
+    {
       "projectID": 274259,
       "fileID": 3674344,
       "required": true,
@@ -533,6 +557,22 @@
       "required": true,
       "__meta": {
         "name": "QuickHomes"
+      }
+    },
+    {
+      "projectID": 280294,
+      "fileID": 3680770,
+      "required": true,
+      "__meta": {
+        "name": "FPS Reducer"
+      }
+    },
+    {
+      "projectID": 280510,
+      "fileID": 3801087,
+      "required": true,
+      "__meta": {
+        "name": "AttributeFix"
       }
     },
     {
@@ -578,6 +618,17 @@
       "__meta": {
         "name": "Titanium",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 288885,
+      "fileID": 3717873,
+      "required": true,
+      "__meta": {
+        "name": "FastWorkbench",
+        "dependencies": [
+          283644
+        ]
       }
     },
     {
@@ -645,6 +696,17 @@
       "required": true,
       "__meta": {
         "name": "Click Machine",
+        "dependencies": [
+          283644
+        ]
+      }
+    },
+    {
+      "projectID": 299540,
+      "fileID": 3717883,
+      "required": true,
+      "__meta": {
+        "name": "FastFurnace",
         "dependencies": [
           283644
         ]
@@ -849,6 +911,14 @@
       }
     },
     {
+      "projectID": 358304,
+      "fileID": 3751574,
+      "required": true,
+      "__meta": {
+        "name": "Login Protection[Forge/Fabric]"
+      }
+    },
+    {
       "projectID": 358700,
       "fileID": 3545748,
       "required": true,
@@ -862,6 +932,14 @@
       "required": true,
       "__meta": {
         "name": "Extreme sound muffler (Forge)"
+      }
+    },
+    {
+      "projectID": 366140,
+      "fileID": 3814624,
+      "required": true,
+      "__meta": {
+        "name": "Dynamic View[Forge]"
       }
     },
     {
@@ -942,6 +1020,17 @@
       "required": true,
       "__meta": {
         "name": "Simple Planes (Forge)"
+      }
+    },
+    {
+      "projectID": 390913,
+      "fileID": 3669360,
+      "required": true,
+      "__meta": {
+        "name": "Fixed Anvil Repair Cost (Forge)",
+        "dependencies": [
+          342584
+        ]
       }
     },
     {
@@ -1047,6 +1136,14 @@
       }
     },
     {
+      "projectID": 429235,
+      "fileID": 3767288,
+      "required": true,
+      "__meta": {
+        "name": "FerriteCore (Forge)"
+      }
+    },
+    {
       "projectID": 431725,
       "fileID": 3799046,
       "required": true,
@@ -1095,6 +1192,14 @@
       }
     },
     {
+      "projectID": 442354,
+      "fileID": 3711717,
+      "required": true,
+      "__meta": {
+        "name": "Not Enough Crashes (Forge)"
+      }
+    },
+    {
       "projectID": 443900,
       "fileID": 3819249,
       "required": true,
@@ -1108,6 +1213,14 @@
       "required": true,
       "__meta": {
         "name": "Time in a bottle standalone"
+      }
+    },
+    {
+      "projectID": 448233,
+      "fileID": 3743929,
+      "required": true,
+      "__meta": {
+        "name": "Entity Culling Fabric/Forge"
       }
     },
     {
@@ -1168,6 +1281,14 @@
       }
     },
     {
+      "projectID": 460819,
+      "fileID": 3544496,
+      "required": true,
+      "__meta": {
+        "name": "Lazy DataFixerUpper(LazyDFU) [FORGE]"
+      }
+    },
+    {
       "projectID": 465066,
       "fileID": 3678612,
       "required": true,
@@ -1184,6 +1305,25 @@
         "name": "Create Stuff Additions",
         "dependencies": [
           328085
+        ]
+      }
+    },
+    {
+      "projectID": 470193,
+      "fileID": 3778022,
+      "required": true,
+      "__meta": {
+        "name": "Connectivity[Forge/Fabric]"
+      }
+    },
+    {
+      "projectID": 475117,
+      "fileID": 3755834,
+      "required": true,
+      "__meta": {
+        "name": "FastSuite",
+        "dependencies": [
+          283644
         ]
       }
     },
@@ -1279,6 +1419,14 @@
       }
     },
     {
+      "projectID": 526854,
+      "fileID": 3706539,
+      "required": true,
+      "__meta": {
+        "name": "Starlight (Forge)"
+      }
+    },
+    {
       "projectID": 531761,
       "fileID": 3767671,
       "required": true,
@@ -1327,6 +1475,14 @@
       }
     },
     {
+      "projectID": 550678,
+      "fileID": 3672630,
+      "required": true,
+      "__meta": {
+        "name": "Too Fast"
+      }
+    },
+    {
       "projectID": 552642,
       "fileID": 3803494,
       "required": true,
@@ -1334,6 +1490,17 @@
         "name": "Tool's Complement",
         "dependencies": [
           69162
+        ]
+      }
+    },
+    {
+      "projectID": 558905,
+      "fileID": 3771366,
+      "required": true,
+      "__meta": {
+        "name": "Magnesium/Rubidium Extras",
+        "dependencies": [
+          574856
         ]
       }
     },
@@ -1350,12 +1517,36 @@
       }
     },
     {
+      "projectID": 560323,
+      "fileID": 3669114,
+      "required": true,
+      "__meta": {
+        "name": "Feature NBT Deadlock Be Gone"
+      }
+    },
+    {
       "projectID": 563928,
       "fileID": 3816497,
       "required": true,
       "__meta": {
         "name": "TerraBlender (Forge)",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 568062,
+      "fileID": 3607715,
+      "required": true,
+      "__meta": {
+        "name": "Modified Anvil - Forge"
+      }
+    },
+    {
+      "projectID": 570017,
+      "fileID": 3707226,
+      "required": true,
+      "__meta": {
+        "name": "Radium Reforged"
       }
     },
     {
@@ -1372,6 +1563,26 @@
       "required": true,
       "__meta": {
         "name": "Spyglass Improvements: Zoom, Quick Access... [Fabric/Forge]"
+      }
+    },
+    {
+      "projectID": 574856,
+      "fileID": 3749094,
+      "required": true,
+      "__meta": {
+        "name": "Rubidium",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 581495,
+      "fileID": 3770744,
+      "required": true,
+      "__meta": {
+        "name": "Oculus",
+        "dependencies": [
+          574856
+        ]
       }
     },
     {
@@ -1423,6 +1634,30 @@
         "dependencies": [
           618298
         ]
+      }
+    },
+    {
+      "projectID": 619616,
+      "fileID": 3779552,
+      "required": true,
+      "__meta": {
+        "name": "Colorful Health Bar (Updated)"
+      }
+    },
+    {
+      "projectID": 619672,
+      "fileID": 3776047,
+      "required": true,
+      "__meta": {
+        "name": "Overloaded Armor Bar (Updated)"
+      }
+    },
+    {
+      "projectID": 619675,
+      "fileID": 3783442,
+      "required": true,
+      "__meta": {
+        "name": "Armor Toughness Bar (Ported)"
       }
     },
     {
