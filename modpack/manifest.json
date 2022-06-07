@@ -14,5 +14,387 @@
   "version": "1.0.0",
   "author": "MrAwesomeRocks",
   "name": "The Latest Summer Fun: Extremely Neat Brand New Edition (With Dairy!)",
-  "files": []
+  "files": [
+    {
+      "projectID": 69162,
+      "fileID": 3803484,
+      "required": true,
+      "__meta": {
+        "name": "CoFH Core",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 69163,
+      "fileID": 3803489,
+      "required": true,
+      "__meta": {
+        "name": "Thermal Expansion",
+        "dependencies": [
+          222880
+        ]
+      }
+    },
+    {
+      "projectID": 222880,
+      "fileID": 3803495,
+      "required": true,
+      "__meta": {
+        "name": "Thermal Foundation",
+        "dependencies": [
+          69162
+        ]
+      }
+    },
+    {
+      "projectID": 231951,
+      "fileID": 3755665,
+      "required": true,
+      "__meta": {
+        "name": "Immersive Engineering"
+      }
+    },
+    {
+      "projectID": 233105,
+      "fileID": 3813637,
+      "required": true,
+      "__meta": {
+        "name": "McJtyLib",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 233398,
+      "fileID": 3813651,
+      "required": true,
+      "__meta": {
+        "name": "Deep Resonance",
+        "dependencies": [
+          326041,
+          233105
+        ]
+      }
+    },
+    {
+      "projectID": 241344,
+      "fileID": 3754969,
+      "required": true,
+      "__meta": {
+        "name": "Snad"
+      }
+    },
+    {
+      "projectID": 247921,
+      "fileID": 3814669,
+      "required": true,
+      "__meta": {
+        "name": "ZeroCore 2",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 250277,
+      "fileID": 3814671,
+      "required": true,
+      "__meta": {
+        "name": "Extreme Reactors",
+        "dependencies": [
+          247921,
+          247921
+        ]
+      }
+    },
+    {
+      "projectID": 254241,
+      "fileID": 3798438,
+      "required": true,
+      "__meta": {
+        "name": "Mob Grinding Utils"
+      }
+    },
+    {
+      "projectID": 266515,
+      "fileID": 3819882,
+      "required": true,
+      "__meta": {
+        "name": "Industrial Foregoing",
+        "dependencies": [
+          287342,
+          306770
+        ]
+      }
+    },
+    {
+      "projectID": 271835,
+      "fileID": 3803488,
+      "required": true,
+      "__meta": {
+        "name": "Thermal Cultivation",
+        "dependencies": [
+          222880
+        ]
+      }
+    },
+    {
+      "projectID": 281849,
+      "fileID": 3815728,
+      "required": true,
+      "__meta": {
+        "name": "PneumaticCraft: Repressurized",
+        "dependencies": [
+          306770
+        ]
+      }
+    },
+    {
+      "projectID": 282001,
+      "fileID": 3770724,
+      "required": true,
+      "__meta": {
+        "name": "CC: Tweaked"
+      }
+    },
+    {
+      "projectID": 283644,
+      "fileID": 3781199,
+      "required": true,
+      "__meta": {
+        "name": "Placebo",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 287342,
+      "fileID": 3819942,
+      "required": true,
+      "__meta": {
+        "name": "Titanium",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 291737,
+      "fileID": 3803492,
+      "required": true,
+      "__meta": {
+        "name": "Thermal Innovation",
+        "dependencies": [
+          222880
+        ]
+      }
+    },
+    {
+      "projectID": 293425,
+      "fileID": 3724564,
+      "required": true,
+      "__meta": {
+        "name": "Alchemistry",
+        "dependencies": [
+          340666,
+          293426
+        ]
+      }
+    },
+    {
+      "projectID": 293426,
+      "fileID": 3707492,
+      "required": true,
+      "__meta": {
+        "name": "A Lib",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 298275,
+      "fileID": 3739497,
+      "required": true,
+      "__meta": {
+        "name": "Click Machine",
+        "dependencies": [
+          283644
+        ]
+      }
+    },
+    {
+      "projectID": 306770,
+      "fileID": 3809917,
+      "required": true,
+      "__meta": {
+        "name": "Patchouli",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 326041,
+      "fileID": 3813643,
+      "required": true,
+      "__meta": {
+        "name": "RFTools Base",
+        "explicit": false,
+        "dependencies": [
+          233105
+        ]
+      }
+    },
+    {
+      "projectID": 328085,
+      "fileID": 3737418,
+      "required": true,
+      "__meta": {
+        "name": "Create",
+        "dependencies": [
+          486392
+        ]
+      }
+    },
+    {
+      "projectID": 340666,
+      "fileID": 3710767,
+      "required": true,
+      "__meta": {
+        "name": "Chem Lib",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 377835,
+      "fileID": 3763686,
+      "required": true,
+      "__meta": {
+        "name": "Create Plus",
+        "dependencies": [
+          328085
+        ]
+      }
+    },
+    {
+      "projectID": 406959,
+      "fileID": 3790304,
+      "required": true,
+      "__meta": {
+        "name": "Thermal Locomotion",
+        "dependencies": [
+          222880
+        ]
+      }
+    },
+    {
+      "projectID": 431725,
+      "fileID": 3799046,
+      "required": true,
+      "__meta": {
+        "name": "Advanced Peripherals",
+        "dependencies": [
+          282001
+        ]
+      }
+    },
+    {
+      "projectID": 438332,
+      "fileID": 3819933,
+      "required": true,
+      "__meta": {
+        "name": "SuperMartijn642's Config Lib",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 439890,
+      "fileID": 3794929,
+      "required": true,
+      "__meta": {
+        "name": "Create Crafts & Additions",
+        "dependencies": [
+          328085,
+          486392
+        ]
+      }
+    },
+    {
+      "projectID": 454372,
+      "fileID": 3773952,
+      "required": true,
+      "__meta": {
+        "name": "SuperMartijn642's Core Lib",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 466792,
+      "fileID": 3790657,
+      "required": true,
+      "__meta": {
+        "name": "Create Stuff Additions",
+        "dependencies": [
+          328085
+        ]
+      }
+    },
+    {
+      "projectID": 486392,
+      "fileID": 3737402,
+      "required": true,
+      "__meta": {
+        "name": "Flywheel",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 509285,
+      "fileID": 3757571,
+      "required": true,
+      "__meta": {
+        "name": "Create Deco",
+        "dependencies": [
+          328085
+        ]
+      }
+    },
+    {
+      "projectID": 510656,
+      "fileID": 3774042,
+      "required": true,
+      "__meta": {
+        "name": "Wireless Chargers",
+        "dependencies": [
+          438332,
+          454372
+        ]
+      }
+    },
+    {
+      "projectID": 531834,
+      "fileID": 3806807,
+      "required": true,
+      "__meta": {
+        "name": "Create Confectionery",
+        "dependencies": [
+          328085
+        ]
+      }
+    },
+    {
+      "projectID": 549381,
+      "fileID": 3785487,
+      "required": true,
+      "__meta": {
+        "name": "Compressed Creativity",
+        "dependencies": [
+          281849,
+          328085
+        ]
+      }
+    },
+    {
+      "projectID": 626708,
+      "fileID": 3803496,
+      "required": true,
+      "__meta": {
+        "name": "Thermal Integration",
+        "dependencies": [
+          222880
+        ]
+      }
+    }
+  ]
 }
