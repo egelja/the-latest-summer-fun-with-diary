@@ -107,6 +107,19 @@
       }
     },
     {
+      "projectID": 225643,
+      "fileID": 3818541,
+      "required": true,
+      "__meta": {
+        "name": "Botania",
+        "explicit": false,
+        "dependencies": [
+          309927,
+          306770
+        ]
+      }
+    },
+    {
       "projectID": 227639,
       "fileID": 3818688,
       "required": true,
@@ -153,6 +166,17 @@
       "required": true,
       "__meta": {
         "name": "Immersive Engineering"
+      }
+    },
+    {
+      "projectID": 232131,
+      "fileID": 3630249,
+      "required": true,
+      "__meta": {
+        "name": "Default Options",
+        "dependencies": [
+          531761
+        ]
       }
     },
     {
@@ -229,6 +253,18 @@
       }
     },
     {
+      "projectID": 238086,
+      "fileID": 3819616,
+      "required": true,
+      "__meta": {
+        "name": "KubeJS",
+        "dependencies": [
+          419699,
+          416294
+        ]
+      }
+    },
+    {
       "projectID": 238222,
       "fileID": 3788739,
       "required": true,
@@ -253,6 +289,17 @@
         "name": "Grappling Hook Mod",
         "dependencies": [
           348521
+        ]
+      }
+    },
+    {
+      "projectID": 239197,
+      "fileID": 3818684,
+      "required": true,
+      "__meta": {
+        "name": "CraftTweaker",
+        "dependencies": [
+          368718
         ]
       }
     },
@@ -632,6 +679,20 @@
       }
     },
     {
+      "projectID": 289412,
+      "fileID": 3725771,
+      "required": true,
+      "__meta": {
+        "name": "FTB Quests (Forge)",
+        "dependencies": [
+          309674,
+          419699,
+          404468,
+          404465
+        ]
+      }
+    },
+    {
       "projectID": 290404,
       "fileID": 3768462,
       "required": true,
@@ -744,6 +805,18 @@
       "__meta": {
         "name": "Caelus API (Forge)",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 309674,
+      "fileID": 3787857,
+      "required": true,
+      "__meta": {
+        "name": "Item Filters",
+        "explicit": false,
+        "dependencies": [
+          419699
+        ]
       }
     },
     {
@@ -911,6 +984,14 @@
       }
     },
     {
+      "projectID": 354339,
+      "fileID": 3697234,
+      "required": true,
+      "__meta": {
+        "name": "Open Loader"
+      }
+    },
+    {
       "projectID": 358304,
       "fileID": 3751574,
       "required": true,
@@ -935,11 +1016,28 @@
       }
     },
     {
+      "projectID": 365281,
+      "fileID": 3585637,
+      "required": true,
+      "__meta": {
+        "name": "ServerConfig Updater"
+      }
+    },
+    {
       "projectID": 366140,
       "fileID": 3814624,
       "required": true,
       "__meta": {
         "name": "Dynamic View[Forge]"
+      }
+    },
+    {
+      "projectID": 368718,
+      "fileID": 3735545,
+      "required": true,
+      "__meta": {
+        "name": "JEITweaker",
+        "explicit": false
       }
     },
     {
@@ -1015,6 +1113,14 @@
       }
     },
     {
+      "projectID": 388800,
+      "fileID": 3793106,
+      "required": true,
+      "__meta": {
+        "name": "Polymorph (Forge)"
+      }
+    },
+    {
       "projectID": 388908,
       "fileID": 3807754,
       "required": true,
@@ -1071,6 +1177,17 @@
       }
     },
     {
+      "projectID": 401648,
+      "fileID": 3798367,
+      "required": true,
+      "__meta": {
+        "name": "BetterF3",
+        "dependencies": [
+          348521
+        ]
+      }
+    },
+    {
       "projectID": 402924,
       "fileID": 3732985,
       "required": true,
@@ -1079,6 +1196,31 @@
         "dependencies": [
           438332,
           454372
+        ]
+      }
+    },
+    {
+      "projectID": 404465,
+      "fileID": 3794623,
+      "required": true,
+      "__meta": {
+        "name": "FTB Library (Forge)",
+        "explicit": false,
+        "dependencies": [
+          419699
+        ]
+      }
+    },
+    {
+      "projectID": 404468,
+      "fileID": 3725501,
+      "required": true,
+      "__meta": {
+        "name": "FTB Teams (Forge)",
+        "explicit": false,
+        "dependencies": [
+          404465,
+          419699
         ]
       }
     },
@@ -1105,6 +1247,15 @@
       }
     },
     {
+      "projectID": 416294,
+      "fileID": 3820127,
+      "required": true,
+      "__meta": {
+        "name": "Rhino",
+        "explicit": false
+      }
+    },
+    {
       "projectID": 417645,
       "fileID": 3670345,
       "required": true,
@@ -1125,6 +1276,30 @@
       }
     },
     {
+      "projectID": 421694,
+      "fileID": 3798014,
+      "required": true,
+      "__meta": {
+        "name": "KubeJS Thermal",
+        "dependencies": [
+          238086,
+          69163
+        ]
+      }
+    },
+    {
+      "projectID": 421770,
+      "fileID": 3747177,
+      "required": true,
+      "__meta": {
+        "name": "KubeJS Immersive Engineering",
+        "dependencies": [
+          238086,
+          231951
+        ]
+      }
+    },
+    {
       "projectID": 422301,
       "fileID": 3807524,
       "required": true,
@@ -1141,6 +1316,18 @@
       "required": true,
       "__meta": {
         "name": "FerriteCore (Forge)"
+      }
+    },
+    {
+      "projectID": 429371,
+      "fileID": 3815884,
+      "required": true,
+      "__meta": {
+        "name": "KubeJS Create",
+        "dependencies": [
+          238086,
+          328085
+        ]
       }
     },
     {
@@ -1483,6 +1670,14 @@
       }
     },
     {
+      "projectID": 551894,
+      "fileID": 3779786,
+      "required": true,
+      "__meta": {
+        "name": "Better Compatibility Checker"
+      }
+    },
+    {
       "projectID": 552642,
       "fileID": 3803494,
       "required": true,
@@ -1586,6 +1781,17 @@
       }
     },
     {
+      "projectID": 585406,
+      "fileID": 3817856,
+      "required": true,
+      "__meta": {
+        "name": "ProbeJS",
+        "dependencies": [
+          238086
+        ]
+      }
+    },
+    {
       "projectID": 594563,
       "fileID": 3814120,
       "required": true,
@@ -1623,6 +1829,18 @@
       "__meta": {
         "name": "Sophisticated Core",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 618511,
+      "fileID": 3772809,
+      "required": true,
+      "__meta": {
+        "name": "KubeJS Botania",
+        "dependencies": [
+          225643,
+          238086
+        ]
       }
     },
     {
