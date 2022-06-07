@@ -390,6 +390,14 @@
       }
     },
     {
+      "projectID": 285105,
+      "fileID": 3765570,
+      "required": true,
+      "__meta": {
+        "name": "Enhanced Farming"
+      }
+    },
+    {
       "projectID": 287342,
       "fileID": 3819942,
       "required": true,
@@ -729,6 +737,14 @@
       "__meta": {
         "name": "Pig Pen Cipher",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 398521,
+      "fileID": 3784851,
+      "required": true,
+      "__meta": {
+        "name": "Farmer's Delight"
       }
     },
     {
@@ -1079,6 +1095,14 @@
         "dependencies": [
           618298
         ]
+      }
+    },
+    {
+      "projectID": 621622,
+      "fileID": 3815779,
+      "required": true,
+      "__meta": {
+        "name": "Wildberries"
       }
     },
     {
