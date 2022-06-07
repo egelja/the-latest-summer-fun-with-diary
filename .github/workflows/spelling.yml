@@ -41,6 +41,7 @@ jobs:
           cspell:fonts/fonts.txt
           cspell:fullstack/fullstack.txt
           cspell:html/html.txt
+          cspell:python/python.txt
 
     # Prepare the Pull Request Payload artifact
     - name: Prepare Pull Request Payload artifact
