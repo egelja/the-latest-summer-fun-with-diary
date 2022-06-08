@@ -5,13 +5,13 @@
 <h1 align="center">The Latest Summer Fun: Super Special New Edition (Gluten Free)</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/MrAwesomeRocks/the-latest-summer-fun?style=for-the-badge">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/MrAwesomeRocks/the-latest-summer-fun-with-diary?style=for-the-badge">
 
-  <img alt="Github issues" src="https://img.shields.io/github/issues/MrAwesomeRocks/the-latest-summer-fun?style=for-the-badge" />
+  <img alt="Github issues" src="https://img.shields.io/github/issues/MrAwesomeRocks/the-latest-summer-fun-with-diary?style=for-the-badge" />
 
-  <img alt="Github pull requests" src="https://img.shields.io/github/issues-pr/MrAwesomeRocks/the-latest-summer-fun?style=for-the-badge" />
+  <img alt="Github pull requests" src="https://img.shields.io/github/issues-pr/MrAwesomeRocks/the-latest-summer-fun-with-diary?style=for-the-badge" />
 
-  <img alt="License" src="https://img.shields.io/github/license/MrAwesomeRocks/the-latest-summer-fun?style=for-the-badge">
+  <img alt="License" src="https://img.shields.io/github/license/MrAwesomeRocks/the-latest-summer-fun-with-diary?style=for-the-badge">
 </p>
 
 <!-- Status -->
@@ -113,7 +113,7 @@ Please obtain the following before getting started:
 8. Click play!
 9. (Optional) Once the game loads, you may want to enable the [Updated Engineering](https://www.curseforge.com/minecraft/texture-packs/updated-engineering), [GUI Retextures](https://www.curseforge.com/minecraft/texture-packs/gui-retextures), or [Retextured EE](./modpack/overrides/resourcepacks/Retextured_EE/) resource packs. You can do this in `Options -> Video Settings -> Resource Packs`. Click the little right arrow on the packs you would like on the left.
 
-You can also download the ZIP file from the [latest release](https://github.com/MrAwesomeRocks/the-latest-summer-fun/releases/latest), but setup varies by launcher.
+You can also download the ZIP file from the [latest release](https://github.com/MrAwesomeRocks/the-latest-summer-fun-with-diary/releases/latest), but setup varies by launcher.
 
 ### Server Setup
 

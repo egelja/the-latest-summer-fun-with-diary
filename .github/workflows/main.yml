@@ -7,7 +7,7 @@ on:
       - "v*"
 
 env:
-  PROJECT_ID: "123456"
+  PROJECT_ID: "631869"
 
 jobs:
   modpack-info:
