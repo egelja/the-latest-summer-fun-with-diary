@@ -327,6 +327,18 @@
       }
     },
     {
+      "projectID": 240950,
+      "fileID": 3813645,
+      "required": true,
+      "__meta": {
+        "name": "RFTools Dimensions",
+        "dependencies": [
+          326041,
+          233105
+        ]
+      }
+    },
+    {
       "projectID": 241319,
       "fileID": 3820011,
       "required": true,
@@ -479,6 +491,18 @@
         "name": "Enchantment Descriptions",
         "dependencies": [
           228525
+        ]
+      }
+    },
+    {
+      "projectID": 250763,
+      "fileID": 3813650,
+      "required": true,
+      "__meta": {
+        "name": "RFTools Control",
+        "dependencies": [
+          233105,
+          326041
         ]
       }
     },
@@ -693,6 +717,18 @@
           419699,
           404468,
           404465
+        ]
+      }
+    },
+    {
+      "projectID": 290209,
+      "fileID": 3783991,
+      "required": true,
+      "__meta": {
+        "name": "RFTools Power",
+        "dependencies": [
+          233105,
+          326041
         ]
       }
     },
@@ -955,6 +991,18 @@
       }
     },
     {
+      "projectID": 342466,
+      "fileID": 3813647,
+      "required": true,
+      "__meta": {
+        "name": "RFTools Utility",
+        "dependencies": [
+          233105,
+          326041
+        ]
+      }
+    },
+    {
       "projectID": 342584,
       "fileID": 3681237,
       "required": true,
@@ -983,6 +1031,18 @@
       }
     },
     {
+      "projectID": 347706,
+      "fileID": 3814226,
+      "required": true,
+      "__meta": {
+        "name": "RFTools Builder",
+        "dependencies": [
+          233105,
+          326041
+        ]
+      }
+    },
+    {
       "projectID": 348521,
       "fileID": 3782776,
       "required": true,
@@ -999,6 +1059,18 @@
         "name": "Ensorcellation",
         "dependencies": [
           69162
+        ]
+      }
+    },
+    {
+      "projectID": 350006,
+      "fileID": 3771412,
+      "required": true,
+      "__meta": {
+        "name": "RFTools Storage",
+        "dependencies": [
+          326041,
+          233105
         ]
       }
     },
