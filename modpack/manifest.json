@@ -3,7 +3,7 @@
     "version": "1.18.2",
     "modLoaders": [
       {
-        "id": "forge-40.1.0",
+        "id": "forge-40.1.48",
         "primary": true
       }
     ]
@@ -316,14 +316,6 @@
       }
     },
     {
-      "projectID": 239286,
-      "fileID": 3819253,
-      "required": true,
-      "__meta": {
-        "name": "Cyclic"
-      }
-    },
-    {
       "projectID": 240630,
       "fileID": 3807822,
       "required": true,
@@ -587,14 +579,6 @@
       }
     },
     {
-      "projectID": 272755,
-      "fileID": 3742572,
-      "required": true,
-      "__meta": {
-        "name": "More Beautiful Buttons"
-      }
-    },
-    {
       "projectID": 273279,
       "fileID": 3584113,
       "required": true,
@@ -608,14 +592,6 @@
       "required": true,
       "__meta": {
         "name": "Carry On"
-      }
-    },
-    {
-      "projectID": 276829,
-      "fileID": 3742633,
-      "required": true,
-      "__meta": {
-        "name": "More Beautiful Plates [Forge]"
       }
     },
     {
@@ -1199,17 +1175,6 @@
       "required": true,
       "__meta": {
         "name": "Simple Planes (Forge)"
-      }
-    },
-    {
-      "projectID": 390913,
-      "fileID": 3669360,
-      "required": true,
-      "__meta": {
-        "name": "Fixed Anvil Repair Cost (Forge)",
-        "dependencies": [
-          342584
-        ]
       }
     },
     {
@@ -1835,14 +1800,6 @@
       }
     },
     {
-      "projectID": 568062,
-      "fileID": 3607715,
-      "required": true,
-      "__meta": {
-        "name": "Modified Anvil - Forge"
-      }
-    },
-    {
       "projectID": 570017,
       "fileID": 3707226,
       "required": true,
@@ -1935,14 +1892,6 @@
       "__meta": {
         "name": "OrtusLib",
         "explicit": false
-      }
-    },
-    {
-      "projectID": 616485,
-      "fileID": 3807589,
-      "required": true,
-      "__meta": {
-        "name": "Incorporeal 3"
       }
     },
     {
