@@ -1279,17 +1279,6 @@
       }
     },
     {
-      "projectID": 401648,
-      "fileID": 3798367,
-      "required": true,
-      "__meta": {
-        "name": "BetterF3",
-        "dependencies": [
-          348521
-        ]
-      }
-    },
-    {
       "projectID": 401955,
       "fileID": 3814106,
       "required": true,
