@@ -679,14 +679,6 @@
       }
     },
     {
-      "projectID": 285105,
-      "fileID": 3765570,
-      "required": true,
-      "__meta": {
-        "name": "Enhanced Farming"
-      }
-    },
-    {
       "projectID": 287342,
       "fileID": 3819942,
       "required": true,
