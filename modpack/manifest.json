@@ -84,7 +84,7 @@
     },
     {
       "projectID": 223794,
-      "fileID": 3818045,
+      "fileID": 3825350,
       "required": true,
       "__meta": {
         "name": "Applied Energistics 2"
@@ -129,7 +129,7 @@
     },
     {
       "projectID": 228525,
-      "fileID": 3820189,
+      "fileID": 3821562,
       "required": true,
       "__meta": {
         "name": "Bookshelf",
@@ -162,7 +162,7 @@
     },
     {
       "projectID": 231951,
-      "fileID": 3755665,
+      "fileID": 3823066,
       "required": true,
       "__meta": {
         "name": "Immersive Engineering"
@@ -181,7 +181,7 @@
     },
     {
       "projectID": 232758,
-      "fileID": 3818256,
+      "fileID": 3824461,
       "required": true,
       "__meta": {
         "name": "Cyclops Core",
@@ -209,7 +209,7 @@
     },
     {
       "projectID": 233105,
-      "fileID": 3813637,
+      "fileID": 3825684,
       "required": true,
       "__meta": {
         "name": "McJtyLib",
@@ -250,7 +250,7 @@
     },
     {
       "projectID": 237664,
-      "fileID": 3792657,
+      "fileID": 3821274,
       "required": true,
       "__meta": {
         "name": "Iron Furnaces [FORGE]"
@@ -258,7 +258,7 @@
     },
     {
       "projectID": 237701,
-      "fileID": 3679966,
+      "fileID": 3826339,
       "required": true,
       "__meta": {
         "name": "ReAuth"
@@ -278,7 +278,7 @@
     },
     {
       "projectID": 238222,
-      "fileID": 3788739,
+      "fileID": 3821390,
       "required": true,
       "__meta": {
         "name": "Just Enough Items (JEI)",
@@ -306,7 +306,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 3818684,
+      "fileID": 3825073,
       "required": true,
       "__meta": {
         "name": "CraftTweaker",
@@ -419,7 +419,7 @@
     },
     {
       "projectID": 247560,
-      "fileID": 3820441,
+      "fileID": 3825944,
       "required": true,
       "__meta": {
         "name": "Oh The Biomes You'll Go",
@@ -448,7 +448,7 @@
     },
     {
       "projectID": 250277,
-      "fileID": 3814671,
+      "fileID": 3823224,
       "required": true,
       "__meta": {
         "name": "Extreme Reactors",
@@ -663,7 +663,7 @@
     },
     {
       "projectID": 282001,
-      "fileID": 3770724,
+      "fileID": 3825460,
       "required": true,
       "__meta": {
         "name": "CC: Tweaked"
@@ -944,7 +944,7 @@
     },
     {
       "projectID": 326041,
-      "fileID": 3813643,
+      "fileID": 3825686,
       "required": true,
       "__meta": {
         "name": "RFTools Base",
@@ -967,7 +967,7 @@
     },
     {
       "projectID": 340666,
-      "fileID": 3710767,
+      "fileID": 3822038,
       "required": true,
       "__meta": {
         "name": "Chem Lib",
@@ -996,7 +996,7 @@
     },
     {
       "projectID": 342584,
-      "fileID": 3681237,
+      "fileID": 3822132,
       "required": true,
       "__meta": {
         "name": "Collective (Forge)",
@@ -1076,7 +1076,7 @@
     },
     {
       "projectID": 351264,
-      "fileID": 3768446,
+      "fileID": 3822982,
       "required": true,
       "__meta": {
         "name": "Kotlin for Forge",
@@ -1305,7 +1305,7 @@
     },
     {
       "projectID": 404465,
-      "fileID": 3794623,
+      "fileID": 3822758,
       "required": true,
       "__meta": {
         "name": "FTB Library (Forge)",
@@ -1349,7 +1349,7 @@
     },
     {
       "projectID": 412082,
-      "fileID": 3819452,
+      "fileID": 3826125,
       "required": true,
       "__meta": {
         "name": "Supplementaries",
@@ -1380,7 +1380,7 @@
     },
     {
       "projectID": 419699,
-      "fileID": 3807924,
+      "fileID": 3824307,
       "required": true,
       "__meta": {
         "name": "Architectury API (Fabric/Forge)",
@@ -1413,7 +1413,7 @@
     },
     {
       "projectID": 422301,
-      "fileID": 3807524,
+      "fileID": 3826097,
       "required": true,
       "__meta": {
         "name": "Sophisticated Backpacks",
@@ -1455,7 +1455,7 @@
     },
     {
       "projectID": 438332,
-      "fileID": 3819933,
+      "fileID": 3825116,
       "required": true,
       "__meta": {
         "name": "SuperMartijn642's Config Lib",
@@ -1687,7 +1687,7 @@
     },
     {
       "projectID": 499980,
-      "fileID": 3819295,
+      "fileID": 3826120,
       "required": true,
       "__meta": {
         "name": "Selene Lib",
@@ -1783,7 +1783,7 @@
     },
     {
       "projectID": 549381,
-      "fileID": 3785487,
+      "fileID": 3821127,
       "required": true,
       "__meta": {
         "name": "Compressed Creativity",
@@ -1895,7 +1895,7 @@
     },
     {
       "projectID": 581495,
-      "fileID": 3770744,
+      "fileID": 3821406,
       "required": true,
       "__meta": {
         "name": "Oculus",
@@ -1957,7 +1957,7 @@
     },
     {
       "projectID": 618298,
-      "fileID": 3819260,
+      "fileID": 3825915,
       "required": true,
       "__meta": {
         "name": "Sophisticated Core",
@@ -1978,7 +1978,7 @@
     },
     {
       "projectID": 619320,
-      "fileID": 3807523,
+      "fileID": 3826094,
       "required": true,
       "__meta": {
         "name": "Sophisticated Storage",
@@ -2021,7 +2021,7 @@
     },
     {
       "projectID": 622112,
-      "fileID": 3817647,
+      "fileID": 3822520,
       "required": true,
       "__meta": {
         "name": "MEGA Cells",
