@@ -16,7 +16,7 @@
 // Favor 'Emendatus Enigmatica' (emendatusenigmatica)
 //Else: Thermal series (thermal). Worst case just trash your computer.
 //REMEMBER TO CONFIGURE ALL ITEMS
-
+/*
 events.listen("recipes", (event) => {
   //
   //
@@ -837,3 +837,4 @@ events.listen("recipes", (event) => {
   //fin
   //
 });
+ */

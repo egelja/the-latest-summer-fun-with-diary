@@ -16,7 +16,7 @@ This script will stop duplicated ores from spawning.
 Ores from Emendatus Enigmatica will still spawn.
 */
 
-events.listen("worldgen.remove", (event) => {
+/* events.listen("worldgen.remove", (event) => {
   //VANILLA
   event.removeOres((ores) => {
     ores.blocks = [
@@ -138,11 +138,11 @@ events.listen("worldgen.remove", (event) => {
     ores.blocks = ["mekanism:fluorite_ore"];
   });
 
-  /*//BITUMEN
-	event.removeOres((ores) => {
-		ores.blocks = [''];
-	});
-*/
+  // //BITUMEN
+	// event.removeOres((ores) => {
+	// 	ores.blocks = [''];
+	// });
+
   //CINNABAR
   event.removeOres((ores) => {
     ores.blocks = ["thermal:cinnabar_ore"];
@@ -158,11 +158,11 @@ events.listen("worldgen.remove", (event) => {
     ores.blocks = ["thermal:sulfur_ore"];
   });
 
-  /*//POTASSIUM NITRATE
-	event.removeOres((ores) => {
-		ores.blocks = [''];
-	});
-*/
+  // //POTASSIUM NITRATE
+	// event.removeOres((ores) => {
+	// 	ores.blocks = [''];
+	// });
+
   //MANA GEM
   event.removeOres((ores) => {
     ores.blocks = ["ars_nouveau:arcane_ore"];
@@ -175,3 +175,4 @@ events.listen("worldgen.remove", (event) => {
   //fin
   //
 });
+ */

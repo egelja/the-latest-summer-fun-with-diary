@@ -430,5 +430,8 @@
   "todo-tree.filtering.excludeGlobs": [
     "**/node_modules",
     ".github/**"
-  ]
+  ],
+  "files.exclude": {
+    "modpack/overrides/kubejs/**/emendatusEnigmatica/**": true
+  }
 }

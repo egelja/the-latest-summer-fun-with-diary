@@ -12,7 +12,7 @@
 //
 //Makes vanilla and modded ores drop Emendatus Enigmatica chunks and clusters
 //
-
+/*
 onEvent("block.loot_tables", (event) => {
   //
   //
@@ -75,3 +75,4 @@ onEvent("block.loot_tables", (event) => {
   //fin
   //
 });
+ */
