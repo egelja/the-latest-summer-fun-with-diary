@@ -1,0 +1,1 @@
+onEvent("block.registry", (event) => {});
