@@ -19,7 +19,7 @@ onEvent("recipes", (event) => {
       }
     }
 
-    let ingr = Ingredient.of("#" + tag);
+    let ingr = tryTag(tag);
     if (ingr) {
       let stacks = ingr.getStacks().toArray();
       let tagItem = global["tagitems"][tag];

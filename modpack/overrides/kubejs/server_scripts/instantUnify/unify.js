@@ -7,18 +7,23 @@ global["ITEM_UNIFY"] = true;
 global["RECIPE_UNIFY"] = true;
 // Whether or not to hide not-first materials in jei (requires secondary script)
 global["HIDE_UNIFIED_ITEMS"] = true;
-// Whether or not to disable non-priority ore-gen
-global["UNIFY_ORE_GEN"] = true;
 
 // Mod priorities
 global["unifypriorities"] = [
   "minecraft",
+  "appliedenergistics2",
   "emendatusenigmatica",
   "thermal",
-  "silents_mechanisms",
-  "silentgems",
+  "immersiveengineering",
+  "create",
+  "contenttweaker",
+  "kubejs",
   "chemlib",
-  "mekanism",
+  "tconstruct",
+  "tmechworks",
+  "industrialforegoing",
+  "botania",
+  "quark",
 ];
 
 // Add oredictionary tags here to unify (or use javascript to generate it!)
@@ -159,48 +164,65 @@ for (let line of tagGen) {
   }
 }
 
+function tryTag(tag) {
+  try {
+    return Ingredient.of("#" + tag);
+  } catch (err) {
+    return null;
+  }
+}
+
 // Replace input and output of recipes (and iterate over tags!)
 onEvent("recipes", (event) => {
-  // Iterate over tags (they should be loaded)
+  // Iterate over tags to generate tagitems and remove bad tags (they should be loaded)
+  let truetags = [];
   var tagitems = new Map();
   tagLoop: for (let tag of tags) {
-    let ingr = Ingredient.of("#" + tag);
+    let ingr = tryTag(tag);
     if (ingr) {
       let stacks = ingr.getStacks().toArray();
 
-      if (tag.match(/(certus_quartz|charged_certus_quartz|fluix)/)) {
-        // These need to be done on their own
-        let mod = "appliedenergistics2";
-        for (let stack of stacks) {
-          if (stack.getMod() == mod) {
-            tagitems[tag] = stack.getId();
-            continue tagLoop;
-          }
-        }
-      } else {
-        for (let mod of global["unifypriorities"]) {
+      // Only load tags with 2 or more items
+      if (stacks.length > 1) {
+        truetags.push(tag);
+
+        if (tag.match(/(certus_quartz|charged_certus_quartz|fluix)/)) {
+          // These need to be done on their own
+          let mod = "appliedenergistics2";
           for (let stack of stacks) {
             if (stack.getMod() == mod) {
               tagitems[tag] = stack.getId();
               continue tagLoop;
             }
           }
+        } else {
+          for (let mod of global["unifypriorities"]) {
+            for (let stack of stacks) {
+              if (stack.getMod() == mod) {
+                tagitems[tag] = stack.getId();
+                continue tagLoop;
+              }
+            }
+          }
         }
+
+        tagitems[tag] = stacks[0].getId();
       }
-      if (stacks.length > 0) tagitems[tag] = stacks[0].getId();
     }
   }
   // Update tags
-  global["unifytags"] = tags;
+  global["unifytags"] = truetags;
   global["tagitems"] = tagitems;
 
   // Unify the rest
   if (global["RECIPE_UNIFY"]) {
     for (let tag of global["unifytags"]) {
-      let ingr = Ingredient.of("#" + tag);
+      let ingr = tryTag(tag);
+
       if (ingr) {
         let stacks = ingr.getStacks().toArray();
         let oItem = global["tagitems"][tag];
+
         for (let tItem of stacks) {
           event.replaceInput({}, tItem.getId(), "#" + tag);
           event.replaceOutput({}, tItem.getId(), oItem);
@@ -210,14 +232,18 @@ onEvent("recipes", (event) => {
   }
 });
 
+INV_NAMES = new Set([
+  "net.minecraft.inventory.container.PlayerContainer",
+  "net.minecraft.class_1723",
+  "net.minecraft.world.inventory.InventoryMenu",
+]);
+
 // Handle inventory change (to check for unification)
 // Unfortunately it gets called twice due to setting the inventory.
 onEvent("player.inventory.changed", (event) => {
-  if (
-    global["INVENTORY_UNIFY"] &&
-    event.getEntity().getOpenInventory().getClass().getName() ==
-      "net.minecraft.inventory.container.PlayerContainer"
-  ) {
+  let invName = String(event.getEntity().getOpenInventory().getClass().getName());
+
+  if (global["INVENTORY_UNIFY"] && INV_NAMES.has(invName)) {
     // Get held item
     var heldItem = event.getItem();
 
@@ -234,8 +260,8 @@ onEvent("player.inventory.changed", (event) => {
         }
       }
 
-      let ingr = Ingredient.of("#" + tag);
-      if (ingr.test(heldItem)) {
+      let ingr = tryTag(tag);
+      if (ingr && ingr.test(heldItem)) {
         // If item is in tag, determine if it needs to be changed
         let tItem = global["tagitems"][tag];
         if (tItem != heldItem.getId()) {
@@ -273,7 +299,7 @@ onEvent("entity.spawned", (event) => {
           }
         }
 
-        let ingr = Ingredient.of("#" + tag);
+        let ingr = tryTag(tag);
         if (ingr && ingr.test(gItem)) {
           // If item is in tag, determine if it needs to be changed
           let tItem = global["tagitems"][tag];
