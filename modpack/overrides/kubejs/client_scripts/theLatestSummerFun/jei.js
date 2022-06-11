@@ -5,5 +5,5 @@
  */
 onEvent("jei.hide.items", (event) => {
   event.hide("immersiveengineering:slag");
-  event.hide("emendatusenigmatica:certus_quartz_gem");
+  // event.hide("emendatusenigmatica:certus_quartz_gem");
 });

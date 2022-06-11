@@ -62,19 +62,11 @@ onEvent("recipes", (event) => {
     "byg:blue_sand",
 
     // Chunk Loaders
-    "chickenchunks:spot_loader",
-    "chickenchunks:chunk_loader",
+    // "chickenchunks:spot_loader",
+    // "chickenchunks:chunk_loader",
 
     // Click machine
     "clickmachine:auto_clicker",
-
-    // Mechworks
-    "tmechworks:firestarter",
-    "tmechworks:drawbridge",
-    "tmechworks:upgrade_blank",
-    "tmechworks:upgrade_speed",
-    "tmechworks:upgrade_drawbridge_distance",
-    "tmechworks:upgrade_drawbridge_advanced",
 
     // Moonstone
     "druidcraft:moonstone_helmet",
@@ -89,15 +81,7 @@ onEvent("recipes", (event) => {
     "druidcraft:moonstone_sickle",
 
     // Vanilla Jetpacks
-    /simplyjetpacks:(thruster|jetpack)_vanilla[1-4]{1}/,
-
-    // Refined pipes
-    /refinedpipes:.*_extractor_attachment/,
-    "refinedpipes:basic_energy_pipe",
-    "refinedpipes:improved_energy_pipe",
-    "refinedpipes:advanced_energy_pipe",
-    "refinedpipes:advanced_item_pipe",
-    "refinedpipes:advanced_fluid_pipe",
+    // /simplyjetpacks:(thruster|jetpack)_vanilla[1-4]{1}/,
 
     // Blueberries
     "byg:blueberry_pie",
@@ -118,17 +102,11 @@ onEvent("recipes", (event) => {
   //! Completely remove items
   const completelyRemove = [
     // Iron Jetpacks
-    "ironjetpacks:strap",
-    "ironjetpacks:basic_coil",
-    "ironjetpacks:advanced_coil",
-    "ironjetpacks:elite_coil",
-    "ironjetpacks:ultimate_coil",
-
-    // Calemi's Utilities
-    "calemiutils:book_stand",
-    "calemiutils:blueprint_filler",
-    "calemiutils:link_book_location",
-    /calemiutils:sledgehammer_.*/,
+    // "ironjetpacks:strap",
+    // "ironjetpacks:basic_coil",
+    // "ironjetpacks:advanced_coil",
+    // "ironjetpacks:elite_coil",
+    // "ironjetpacks:ultimate_coil",
   ];
   for (let item of completelyRemove) {
     event.remove({ output: item });

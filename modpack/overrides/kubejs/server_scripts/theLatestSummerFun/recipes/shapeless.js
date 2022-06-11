@@ -15,40 +15,6 @@ onEvent("recipes", (event) => {
   event.shapeless("#forge:gems/quartz", "2x appliedenergistics2:purified_nether_quartz_crystal");
   event.shapeless("#forge:gems/fluix", "2x appliedenergistics2:purified_fluix_crystal");
 
-  //! Refined Pipes
-  const pipeTypes = ["extractor", "energy", "fluid", "item"];
-  const pipeTiers = ["basic", "improved", "advanced", "elite", "ultimate"];
-  const itemForTier = {
-    improved: "#forge:ingots/gold",
-    advanced: "#forge:gems/certus_quartz",
-    elite: "#forge:gems/emerald",
-    ultimate: "minecraft:popped_chorus_fruit",
-  };
-
-  for (let pipeType of pipeTypes) {
-    for (let i = 1; i < pipeTiers.length; i++) {
-      let oldTier = pipeTiers[i - 1];
-      let newTier = pipeTiers[i];
-
-      // Only three tiers of item pipes
-      if (pipeType === "item" && (newTier === "elite" || newTier === "ultimate")) {
-        continue;
-      }
-
-      if (pipeType === "extractor") {
-        event.shapeless(`refinedpipes:${newTier}_extractor_attachment`, [
-          `refinedpipes:${oldTier}_extractor_attachment`,
-          itemForTier[newTier],
-        ]);
-      } else {
-        event.shapeless(`refinedpipes:${newTier}_${pipeType}_pipe`, [
-          `refinedpipes:${oldTier}_${pipeType}_pipe`,
-          itemForTier[newTier],
-        ]);
-      }
-    }
-  }
-
   //! Dye fixes
   event.shapeless("minecraft:red_dye", "minecraft:sweet_berries");
   event.shapeless("minecraft:red_dye", "byg:holly_berries");
@@ -69,33 +35,13 @@ onEvent("recipes", (event) => {
     "#forge:crops/wheat",
   ]);
 
-  //! Jelly torches
-  const torchColors = ["pink", "purple", "blue", "green", "yellow", "orange", "red", "white"];
-  for (let color of torchColors) {
-    event.shapeless(`4x upgrade_aquatic:${color}_jelly_torch`, [
-      "upgrade_aquatic:prismarine_rod",
-      "upgrade_aquatic:glowing_ink_sac",
-      "#forge:jelly_or_jam",
-      `#forge:dyes/${color}`,
-    ]);
-  }
-
   //! Carapace and chitin
-  event.shapeless("druidcraft:chitin", "4x mysticalworld:carapace");
-  event.shapeless("4x mysticalworld:carapace", "druidcraft:chitin");
+  // event.shapeless("druidcraft:chitin", "4x mysticalworld:carapace");
+  // event.shapeless("4x mysticalworld:carapace", "druidcraft:chitin");
 
   //! Alternate Wood Crafting: Blame Quark
   // Modded to vanilla chests
   event.shapeless("minecraft:chest", "#forge:chests/wooden");
-
-  //! Fix kelp
-  const kelps = Ingredient.of(/upgrade_aquatic:.*_kelp$/)
-    .getStacks()
-    .toArray();
-  for (let kelp of kelps) {
-    event.shapeless("minecraft:kelp", kelp.getId());
-    event.shapeless(kelp.getId(), "minecraft:kelp");
-  }
 
   //! Fix colored sand
   const sandColors = ["pink", "purple", "blue"];
@@ -106,15 +52,6 @@ onEvent("recipes", (event) => {
   //! Fix warped coral
   event.shapeless("byg:warped_coral_block", "4x byg:warped_coral");
   event.shapeless("byg:warped_coral_block", "4x byg:warped_coral_fan");
-
-  //! Rework Mechworks
-  // Speed Upgrade
-  event.shapeless("tmechworks:upgrade_speed", ["tmechworks:upgrade_blank", "minecraft:clock"]);
-  // Distance Upgrade
-  event.shapeless("tmechworks:upgrade_drawbridge_distance", [
-    "tmechworks:upgrade_blank",
-    "minecraft:piston",
-  ]);
 
   //! F O O D
   // Syrup

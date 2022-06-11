@@ -7,114 +7,6 @@
  ** See L24 of https://mods.latvian.dev/books/kubejs/page/recipeeventjs for more details.
  */
 onEvent("recipes", (event) => {
-  //! Refined pipes
-  //$ Energy pipes
-  // Basic
-  event.shaped("6x refinedpipes:basic_energy_pipe", [
-    "III",
-    "GRG",
-    "III"
-  ], {
-    I: "#forge:ingots/iron",
-    G: "#forge:glass",
-    R: "#forge:dusts/redstone"
-  });
-  // Improved
-  event.shaped("6x refinedpipes:improved_energy_pipe", [
-    "ggg",
-    "GRG",
-    "ggg"
-  ], {
-    g: "#forge:ingots/gold",
-    G: "#forge:glass",
-    R: "#forge:dusts/redstone"
-  });
-  // Advanced
-  event.shaped("6x refinedpipes:advanced_energy_pipe", [
-    "CQC",
-    "GRG",
-    "CQC"
-  ], {
-    C: "#forge:gems/certus_quartz",
-    Q: "#forge:gems/quartz",
-    G: "#forge:glass",
-    R: "#forge:storage_blocks/redstone"
-  });
-  //$ Item pipes
-  // Advanced
-  event.shaped("6x refinedpipes:advanced_item_pipe", [
-    "CQC",
-    "GGG",
-    "CQC"
-  ], {
-    C: "#forge:gems/certus_quartz",
-    Q: "#forge:gems/quartz",
-    G: "#forge:glass",
-  });
-  //$ Fluid pipes
-  // Advanced
-  event.shaped("6x refinedpipes:advanced_fluid_pipe", [
-    "CQC",
-    "SGS",
-    "CQC"
-  ], {
-    C: "#forge:gems/certus_quartz",
-    Q: "#forge:gems/quartz",
-    G: "#forge:glass",
-    S: "#forge:slimeballs"
-  });
-  //$ Extractors
-  // Basic
-  event.shaped("2x refinedpipes:basic_extractor_attachment", [
-    "iCi",
-    "IRI"
-  ], {
-    i: "#forge:nuggets/iron",
-    I: "#forge:ingots/iron",
-    R: "#forge:dusts/redstone",
-    C: "#forge:ingots/copper"
-  });
-  // Improved
-  event.shaped("2x refinedpipes:improved_extractor_attachment", [
-    "iCi",
-    "GRG"
-  ], {
-    i: "#forge:nuggets/iron",
-    G: "#forge:ingots/gold",
-    R: "#forge:dusts/redstone",
-    C: "#forge:ingots/copper"
-  });
-  // Advanced
-  event.shaped("2x refinedpipes:advanced_extractor_attachment", [
-    "QCQ",
-    "ARA"
-  ], {
-    Q: "#forge:gems/quartz",
-    A: "#forge:gems/certus_quartz",
-    R: "#forge:dusts/redstone",
-    C: "#forge:ingots/copper"
-  });
-  // Elite
-  event.shaped("2x refinedpipes:elite_extractor_attachment", [
-    "BCB",
-    "ERE"
-  ], {
-    B: "#forge:rods/blaze",
-    E: "#forge:gems/emerald",
-    R: "#forge:dusts/redstone",
-    C: "#forge:ingots/copper"
-  });
-  // Ultimate
-  event.shaped("2x refinedpipes:ultimate_extractor_attachment", [
-    "PCP",
-    "FRF"
-  ], {
-    P: "#forge:dusts/prismarine",
-    F: "minecraft:popped_chorus_fruit",
-    R: "#forge:dusts/redstone",
-    C: "#forge:ingots/copper"
-  });
-
   //! Vanilla recipe improvements
   // Sticks
   const positions = ["L  ", " L ", "  L"];
@@ -200,7 +92,7 @@ onEvent("recipes", (event) => {
   //! Vanilla jetpack recipes
   //$ Iron
   // Iron thruster
-  event.shaped("simplyjetpacks:thruster_vanilla1", [
+ /*  event.shaped("simplyjetpacks:thruster_vanilla1", [
     " I ",
     "IFI",
     "ICI"
@@ -410,53 +302,11 @@ onEvent("recipes", (event) => {
     N: "gildedarmor:gilded_netherite_chestplate",
     C: "simplyjetpacks:unit_cryotheum"
   });
-
-  //! Rework Mechworks
-  // Drawbridge
-  event.shaped("tmechworks:drawbridge", [
-    "GDG",
-    "BPB",
-    "GBG"
-  ], {
-    G: "#forge:ingots/gold",
-    D: "minecraft:dispenser",
-    B: "#forge:ingots/bronze",
-    P: "minecraft:sticky_piston"
-  });
-  // Firestarter
-  event.shaped(Item.of("tmechworks:firestarter", {extinguish: 1}), [
-    "GNG",
-    "BFB",
-    "GBG"
-  ], {
-    G: "#forge:ingots/gold",
-    N: "#forge:netherrack",
-    B: "#forge:ingots/bronze",
-    F: "minecraft:flint_and_steel"
-  });
-  // Blank Upgrade
-  event.shaped("tmechworks:upgrade_blank", [
-    "GBG",
-    "B B",
-    "GBG"
-  ], {
-    G: "#forge:ingots/gold",
-    B: "#forge:ingots/bronze"
-  });
-  // Advanced Upgrade
-  event.shaped("tmechworks:upgrade_drawbridge_advanced", [
-    "CEC",
-    "EUE",
-    "CEC"
-  ], {
-    C: "#forge:ingots/cobalt",
-    E: "#forge:ingots/electrum",
-    U: "tmechworks:upgrade_blank"
-  });
+ */
 
   //! Chunk Loaders
   // Chunk loader
-  event.shaped("chickenchunks:spot_loader", [
+ /*  event.shaped("chickenchunks:spot_loader", [
     "EGE",
     "GOG"
   ], {
@@ -472,7 +322,7 @@ onEvent("recipes", (event) => {
   ], {
     L: "chickenchunks:spot_loader",
     S: "#forge:nether_stars"
-  });
+  }); */
 
   //! F O O D
   // Waffles

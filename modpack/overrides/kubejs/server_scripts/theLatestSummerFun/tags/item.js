@@ -15,7 +15,7 @@ onEvent("item.tags", (event) => {
   event.add("forge:ores/saltpeter", "emendatusenigmatica:potassium_nitrate_ore");
 
   // Jelly/Jam tags
-  event.add("forge:jelly_or_jam", ["kubejs:jelly", "upgrade_aquatic:mulberry_jam_bottle"]);
+  event.add("forge:jelly_or_jam", ["kubejs:jelly"]);
 
   // Dimensional Shards
   event.add("forge:dimensional_ores", /rftoolsbase:dimensionalshard_/);

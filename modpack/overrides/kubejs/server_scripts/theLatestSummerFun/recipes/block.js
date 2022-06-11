@@ -25,6 +25,7 @@ onEvent("recipes", (event) => {
       event.recipes.create.milling(dustItem, tagItem);
     }
   }
+
   // Sky stone dust
   event.recipes.thermal
     .pulverizer("appliedenergistics2:sky_dust", "appliedenergistics2:sky_stone_block")
@@ -228,53 +229,8 @@ onEvent("recipes", (event) => {
         count: 1,
       },
     },
-    //** Powah!
-    {
-      input: "powah:uraninite_ore_poor",
-      grinding: {
-        primaryOutput: "powah:uraninite_raw_poor",
-        secondaryOutput: null,
-        multipliers: {
-          amount: 1,
-          mainChance: 1,
-        },
-      },
-      smelting: {
-        output: "powah:uraninite",
-        count: 1,
-      },
-    },
-    {
-      input: "powah:uraninite_ore",
-      grinding: {
-        primaryOutput: "powah:uraninite_raw",
-        secondaryOutput: "powah:uraninite_raw_poor",
-        multipliers: {
-          amount: 1,
-          mainChance: 1,
-        },
-      },
-      smelting: {
-        output: "powah:uraninite",
-        count: 2,
-      },
-    },
-    {
-      input: "powah:uraninite_ore_dense",
-      grinding: {
-        primaryOutput: "powah:uraninite_raw_dense",
-        secondaryOutput: "powah:uraninite_raw",
-        multipliers: {
-          amount: 1,
-          mainChance: 1,
-        },
-      },
-      smelting: {
-        output: "powah:uraninite",
-        count: 4,
-      },
-    },
   ];
+
   for (let entry of defaultOreProcessing) {
     //$ Grinding recipes
     //** Setup
@@ -320,6 +276,7 @@ onEvent("recipes", (event) => {
     //** Register recipes
     event.recipes.thermal.smelter(smelterOutputs, entry.input).energy(3200);
   }
+
   //$ Other recipes
   //** Vanilla Smelting
   // DimShards
@@ -354,12 +311,12 @@ onEvent("recipes", (event) => {
   event.recipes.thermal.lapidary_fuel("druidcraft:moonstone").energy(500000);
   event.recipes.thermal.lapidary_fuel("botania:mana_diamond").energy(650000);
   event.recipes.thermal.lapidary_fuel("botania:dragonstone").energy(750000);
-  event.recipes.thermal.lapidary_fuel("psi:psigem").energy(600000);
-  event.recipes.thermal.lapidary_fuel("eidolon:shadow_gem").energy(650000);
-  event.recipes.thermal.lapidary_fuel("astralsorcery:aquamarine").energy(40000);
-  event.recipes.thermal.lapidary_fuel("astralsorcery:resonating_gem").energy(50000);
-  event.recipes.thermal.lapidary_fuel("astralsorcery:rock_crystal").energy(125000);
-  event.recipes.thermal.lapidary_fuel("astralsorcery:celestial_crystal").energy(250000);
+  // event.recipes.thermal.lapidary_fuel("psi:psigem").energy(600000);
+  // event.recipes.thermal.lapidary_fuel("eidolon:shadow_gem").energy(650000);
+  // event.recipes.thermal.lapidary_fuel("astralsorcery:aquamarine").energy(40000);
+  // event.recipes.thermal.lapidary_fuel("astralsorcery:resonating_gem").energy(50000);
+  // event.recipes.thermal.lapidary_fuel("astralsorcery:rock_crystal").energy(125000);
+  // event.recipes.thermal.lapidary_fuel("astralsorcery:celestial_crystal").energy(250000);
   event.recipes.thermal.lapidary_fuel("#forge:gems/certus_quartz").energy(40000);
   event.recipes.thermal.lapidary_fuel("#forge:gems/fluix").energy(100000);
   event.recipes.thermal.lapidary_fuel("byg:ametrine_gems").energy(500000);
@@ -369,19 +326,11 @@ onEvent("recipes", (event) => {
 
   //! Vanilla jetpack recipes
   // Netherite Thruster
-  event.smithing(
+  /*   event.smithing(
     "simplyjetpacks:thruster_vanilla4",
     "simplyjetpacks:thruster_vanilla3",
     "minecraft:netherite_ingot"
-  );
-
-  //! Coral growing
-  const corals = Ingredient.of(/^(byg|upgrade_aquatic):(?!dead).+_coral(|_fan|_shower)$/)
-    .getStacks()
-    .toArray();
-  for (let coral of corals) {
-    event.recipes.thermal.insolator(`2x ${coral.getId()}`, coral.getId()).water(750).energy(36000);
-  }
+  ); */
 
   //! C&B Smithing
   // Bitsaw
@@ -422,50 +371,6 @@ onEvent("recipes", (event) => {
     "druidcraft:diamond_sickle",
     "druidcraft:moonstone"
   );
-
-  //! Coral Pulverizing
-  // Blue corals
-  const blueCorals = [
-    "minecraft:tube_coral",
-    "minecraft:tube_coral_fan",
-    "upgrade_aquatic:acan_coral",
-    "upgrade_aquatic:acan_coral_fan",
-    "upgrade_aquatic:petal_coral",
-    "upgrade_aquatic:petal_coral_fan",
-    "upgrade_aquatic:prismarine_coral",
-    "upgrade_aquatic:prismarine_coral_fan",
-    "upgrade_aquatic:prismarine_coral_shower",
-    "byg:warped_coral",
-    "byg:warped_coral_fan",
-  ];
-  for (let coral of blueCorals) {
-    event.recipes.thermal.pulverizer("#forge:sand/blue", coral);
-    event.recipes.immersiveengineering.crusher("#forge:sand/blue", coral);
-    event.recipes.create.crushing("#forge:sand/blue", coral);
-  }
-
-  // Pink corals
-  const pinkCorals = [
-    "minecraft:bubble_coral",
-    "minecraft:brain_coral",
-    "minecraft:bubble_coral_fan",
-    "minecraft:brain_coral_fan",
-    "minecraft:fire_coral",
-    "minecraft:fire_coral_fan",
-  ];
-  for (let coral of pinkCorals) {
-    event.recipes.thermal.pulverizer("#forge:sand/pink", coral);
-    event.recipes.immersiveengineering.crusher("#forge:sand/pink", coral);
-    event.recipes.create.crushing("#forge:sand/pink", coral);
-  }
-
-  // Purple corals
-  const purpleCorals = ["upgrade_aquatic:silk_coral", "upgrade_aquatic:silk_coral_fan"];
-  for (let coral of purpleCorals) {
-    event.recipes.thermal.pulverizer("#forge:sand/purple", coral);
-    event.recipes.immersiveengineering.crusher("#forge:sand/purple", coral);
-    event.recipes.create.crushing("#forge:sand/purple", coral);
-  }
 
   //! Gem -> gear compressing
   const gems = ["diamond", "emerald", "lapis", "quartz"];
