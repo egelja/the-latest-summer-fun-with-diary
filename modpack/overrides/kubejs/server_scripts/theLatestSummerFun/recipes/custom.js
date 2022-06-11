@@ -19,16 +19,8 @@
  */
 onEvent("recipes", (event) => {
   // Botania
-  event.custom({
-    type: "botania:elven_trade",
-    ingredients: [Ingredient.of("#forge:gems/sapphire").toJson()],
-    output: [Item.of("botania:life_essence").toResultJson()],
-  });
-  event.custom({
-    type: "botania:elven_trade",
-    ingredients: [Ingredient.of("#forge:storage_blocks/sapphire").toJson()],
-    output: [Item.of("botania:gaia_ingot").toResultJson()],
-  });
+  event.recipes.botania.elven_trade(["#forge:gems/sapphire"], "botania:life_essence");
+  event.recipes.botania.elven_trade(["#forge:storage_blocks/sapphire"], "botania:gaia_ingot");
   /*
    ? Hello, brewing?
    ? Brewing machine BROKEN https://github.com/KubeJS-Mods/KubeJS/issues/68
