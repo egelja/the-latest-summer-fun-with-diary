@@ -986,11 +986,12 @@
     },
     {
       "projectID": 340666,
-      "fileID": 3822038,
+      "fileID": 3710767,
       "required": true,
       "__meta": {
         "name": "Chem Lib",
-        "explicit": false
+        "explicit": false,
+        "pinned": true
       }
     },
     {
@@ -1872,11 +1873,12 @@
     },
     {
       "projectID": 563928,
-      "fileID": 3816497,
+      "fileID": 3725996,
       "required": true,
       "__meta": {
         "name": "TerraBlender (Forge)",
-        "explicit": false
+        "explicit": false,
+        "pinned": true
       }
     },
     {
