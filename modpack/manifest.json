@@ -33,7 +33,7 @@
     },
     {
       "projectID": 69162,
-      "fileID": 3803484,
+      "fileID": 3838025,
       "required": true,
       "__meta": {
         "name": "CoFH Core",
@@ -42,7 +42,7 @@
     },
     {
       "projectID": 69163,
-      "fileID": 3803489,
+      "fileID": 3837868,
       "required": true,
       "__meta": {
         "name": "Thermal Expansion",
@@ -53,7 +53,7 @@
     },
     {
       "projectID": 74072,
-      "fileID": 3784732,
+      "fileID": 3829979,
       "required": true,
       "__meta": {
         "name": "Tinkers Construct",
@@ -64,7 +64,7 @@
     },
     {
       "projectID": 74924,
-      "fileID": 3784500,
+      "fileID": 3829975,
       "required": true,
       "__meta": {
         "name": "Mantle",
@@ -73,7 +73,7 @@
     },
     {
       "projectID": 222880,
-      "fileID": 3803495,
+      "fileID": 3837827,
       "required": true,
       "__meta": {
         "name": "Thermal Foundation",
@@ -84,7 +84,7 @@
     },
     {
       "projectID": 223794,
-      "fileID": 3825350,
+      "fileID": 3836504,
       "required": true,
       "__meta": {
         "name": "Applied Energistics 2"
@@ -121,7 +121,7 @@
     },
     {
       "projectID": 227639,
-      "fileID": 3826665,
+      "fileID": 3828399,
       "required": true,
       "__meta": {
         "name": "The Twilight Forest"
@@ -129,7 +129,7 @@
     },
     {
       "projectID": 228525,
-      "fileID": 3821562,
+      "fileID": 3832270,
       "required": true,
       "__meta": {
         "name": "Bookshelf",
@@ -170,7 +170,7 @@
     },
     {
       "projectID": 232131,
-      "fileID": 3630249,
+      "fileID": 3830896,
       "required": true,
       "__meta": {
         "name": "Default Options",
@@ -181,7 +181,7 @@
     },
     {
       "projectID": 232758,
-      "fileID": 3824461,
+      "fileID": 3832119,
       "required": true,
       "__meta": {
         "name": "Cyclops Core",
@@ -198,7 +198,7 @@
     },
     {
       "projectID": 233071,
-      "fileID": 3584842,
+      "fileID": 3830906,
       "required": true,
       "__meta": {
         "name": "Crafting Tweaks",
@@ -218,7 +218,7 @@
     },
     {
       "projectID": 233398,
-      "fileID": 3813651,
+      "fileID": 3834147,
       "required": true,
       "__meta": {
         "name": "Deep Resonance",
@@ -258,7 +258,7 @@
     },
     {
       "projectID": 237701,
-      "fileID": 3826339,
+      "fileID": 3834621,
       "required": true,
       "__meta": {
         "name": "ReAuth"
@@ -266,7 +266,7 @@
     },
     {
       "projectID": 238086,
-      "fileID": 3827669,
+      "fileID": 3828274,
       "required": true,
       "__meta": {
         "name": "KubeJS",
@@ -278,7 +278,7 @@
     },
     {
       "projectID": 238222,
-      "fileID": 3821390,
+      "fileID": 3838014,
       "required": true,
       "__meta": {
         "name": "Just Enough Items (JEI)",
@@ -306,7 +306,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 3825073,
+      "fileID": 3833809,
       "required": true,
       "__meta": {
         "name": "CraftTweaker",
@@ -317,7 +317,7 @@
     },
     {
       "projectID": 240630,
-      "fileID": 3807822,
+      "fileID": 3831559,
       "required": true,
       "__meta": {
         "name": "Just Enough Resources (JER)",
@@ -328,7 +328,7 @@
     },
     {
       "projectID": 240950,
-      "fileID": 3813645,
+      "fileID": 3828445,
       "required": true,
       "__meta": {
         "name": "RFTools Dimensions",
@@ -356,7 +356,7 @@
     },
     {
       "projectID": 242195,
-      "fileID": 3753813,
+      "fileID": 3830309,
       "required": true,
       "__meta": {
         "name": "Dark Utilities",
@@ -431,7 +431,7 @@
     },
     {
       "projectID": 247921,
-      "fileID": 3814669,
+      "fileID": 3833589,
       "required": true,
       "__meta": {
         "name": "ZeroCore 2",
@@ -535,7 +535,7 @@
     },
     {
       "projectID": 256717,
-      "fileID": 3757581,
+      "fileID": 3833879,
       "required": true,
       "__meta": {
         "name": "Clumps"
@@ -551,7 +551,7 @@
     },
     {
       "projectID": 263420,
-      "fileID": 3819354,
+      "fileID": 3835773,
       "required": true,
       "__meta": {
         "name": "Xaero's Minimap"
@@ -570,7 +570,7 @@
     },
     {
       "projectID": 266515,
-      "fileID": 3819882,
+      "fileID": 3829542,
       "required": true,
       "__meta": {
         "name": "Industrial Foregoing",
@@ -593,7 +593,7 @@
     },
     {
       "projectID": 271835,
-      "fileID": 3803488,
+      "fileID": 3837822,
       "required": true,
       "__meta": {
         "name": "Thermal Cultivation",
@@ -652,7 +652,7 @@
     },
     {
       "projectID": 281849,
-      "fileID": 3815728,
+      "fileID": 3837268,
       "required": true,
       "__meta": {
         "name": "PneumaticCraft: Repressurized",
@@ -737,7 +737,7 @@
     },
     {
       "projectID": 291737,
-      "fileID": 3803492,
+      "fileID": 3837829,
       "required": true,
       "__meta": {
         "name": "Thermal Innovation",
@@ -815,7 +815,7 @@
     },
     {
       "projectID": 306770,
-      "fileID": 3809917,
+      "fileID": 3831438,
       "required": true,
       "__meta": {
         "name": "Patchouli",
@@ -841,7 +841,7 @@
     },
     {
       "projectID": 309674,
-      "fileID": 3787857,
+      "fileID": 3829227,
       "required": true,
       "__meta": {
         "name": "Item Filters",
@@ -875,7 +875,7 @@
     },
     {
       "projectID": 313866,
-      "fileID": 3816765,
+      "fileID": 3837935,
       "required": true,
       "__meta": {
         "name": "Engineer's Decor"
@@ -935,7 +935,7 @@
     },
     {
       "projectID": 317780,
-      "fileID": 3819368,
+      "fileID": 3835789,
       "required": true,
       "__meta": {
         "name": "Xaero's World Map"
@@ -1065,7 +1065,7 @@
     },
     {
       "projectID": 349447,
-      "fileID": 3790294,
+      "fileID": 3837816,
       "required": true,
       "__meta": {
         "name": "Ensorcellation",
@@ -1096,7 +1096,7 @@
     },
     {
       "projectID": 351264,
-      "fileID": 3822982,
+      "fileID": 3829616,
       "required": true,
       "__meta": {
         "name": "Kotlin for Forge",
@@ -1129,7 +1129,7 @@
     },
     {
       "projectID": 361026,
-      "fileID": 3809335,
+      "fileID": 3838251,
       "required": true,
       "__meta": {
         "name": "Occultism",
@@ -1186,7 +1186,7 @@
     },
     {
       "projectID": 376876,
-      "fileID": 3806549,
+      "fileID": 3838332,
       "required": true,
       "__meta": {
         "name": "Tinkers' Reforged",
@@ -1292,7 +1292,7 @@
     },
     {
       "projectID": 398521,
-      "fileID": 3784851,
+      "fileID": 3834150,
       "required": true,
       "__meta": {
         "name": "Farmer's Delight"
@@ -1300,7 +1300,7 @@
     },
     {
       "projectID": 401955,
-      "fileID": 3814106,
+      "fileID": 3837696,
       "required": true,
       "__meta": {
         "name": "Ars Nouveau",
@@ -1350,7 +1350,7 @@
     },
     {
       "projectID": 406959,
-      "fileID": 3790304,
+      "fileID": 3837831,
       "required": true,
       "__meta": {
         "name": "Thermal Locomotion",
@@ -1369,7 +1369,7 @@
     },
     {
       "projectID": 412082,
-      "fileID": 3826125,
+      "fileID": 3832545,
       "required": true,
       "__meta": {
         "name": "Supplementaries",
@@ -1380,7 +1380,7 @@
     },
     {
       "projectID": 416294,
-      "fileID": 3827768,
+      "fileID": 3837949,
       "required": true,
       "__meta": {
         "name": "Rhino",
@@ -1400,7 +1400,7 @@
     },
     {
       "projectID": 419699,
-      "fileID": 3824307,
+      "fileID": 3834393,
       "required": true,
       "__meta": {
         "name": "Architectury API (Fabric/Forge)",
@@ -1409,7 +1409,7 @@
     },
     {
       "projectID": 421694,
-      "fileID": 3826640,
+      "fileID": 3834362,
       "required": true,
       "__meta": {
         "name": "KubeJS Thermal",
@@ -1433,7 +1433,7 @@
     },
     {
       "projectID": 422301,
-      "fileID": 3826097,
+      "fileID": 3838452,
       "required": true,
       "__meta": {
         "name": "Sophisticated Backpacks",
@@ -1596,7 +1596,7 @@
     },
     {
       "projectID": 459929,
-      "fileID": 3817705,
+      "fileID": 3835937,
       "required": true,
       "__meta": {
         "name": "Applied Energistics 2 Wireless Terminals",
@@ -1637,7 +1637,7 @@
     },
     {
       "projectID": 470193,
-      "fileID": 3778022,
+      "fileID": 3833738,
       "required": true,
       "__meta": {
         "name": "Connectivity[Forge/Fabric]"
@@ -1667,7 +1667,7 @@
     },
     {
       "projectID": 484064,
-      "fileID": 3788643,
+      "fileID": 3838894,
       "required": true,
       "__meta": {
         "name": "Malum",
@@ -1707,7 +1707,7 @@
     },
     {
       "projectID": 499980,
-      "fileID": 3828175,
+      "fileID": 3828748,
       "required": true,
       "__meta": {
         "name": "Selene Lib",
@@ -1767,7 +1767,7 @@
     },
     {
       "projectID": 531761,
-      "fileID": 3767671,
+      "fileID": 3830790,
       "required": true,
       "__meta": {
         "name": "Balm (Forge Edition)",
@@ -1831,7 +1831,7 @@
     },
     {
       "projectID": 552642,
-      "fileID": 3803494,
+      "fileID": 3837833,
       "required": true,
       "__meta": {
         "name": "Tool's Complement",
@@ -1950,7 +1950,7 @@
     },
     {
       "projectID": 597522,
-      "fileID": 3769039,
+      "fileID": 3835270,
       "required": true,
       "__meta": {
         "name": "Eccentric Tome"
@@ -1978,7 +1978,7 @@
     },
     {
       "projectID": 618298,
-      "fileID": 3825915,
+      "fileID": 3838447,
       "required": true,
       "__meta": {
         "name": "Sophisticated Core",
@@ -1999,7 +1999,7 @@
     },
     {
       "projectID": 619320,
-      "fileID": 3826094,
+      "fileID": 3830233,
       "required": true,
       "__meta": {
         "name": "Sophisticated Storage",
@@ -2053,7 +2053,7 @@
     },
     {
       "projectID": 626708,
-      "fileID": 3803496,
+      "fileID": 3837830,
       "required": true,
       "__meta": {
         "name": "Thermal Integration",
@@ -2064,7 +2064,7 @@
     },
     {
       "projectID": 627986,
-      "fileID": 3817549,
+      "fileID": 3836864,
       "required": true,
       "__meta": {
         "name": "Naturalist",
