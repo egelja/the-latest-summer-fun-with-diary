@@ -40,7 +40,7 @@ install:
 
   # Link to where the file where the modpack can be distributed
   # This supports loading from local files as well for most pack types if there is file://{PathToFile} in the beginning
-  modpackUrl: https://github.com/MrAwesomeRocks/the-latest-summer-fun-with-diary/releases/download/v1.0.0-beta.3/The_Latest_Summer_Fun_-_Extremely_Neat_Brand_New_Edition_.With_Dairy_.-v1.0.0-beta.3.zip
+  modpackUrl: https://github.com/MrAwesomeRocks/the-latest-summer-fun-with-diary/releases/download/v1.0.0-beta.4/The_Latest_Summer_Fun_-_Extremely_Neat_Brand_New_Edition_.With_Dairy_.-v1.0.0-beta.4.zip
 
   # This is used to specify in which format the modpack is distributed, the server launcher has to handle each individually if their format differs
   # current supported formats:
