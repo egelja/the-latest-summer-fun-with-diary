@@ -162,5 +162,5 @@ jobs:
           display_name: ${{ needs.build.outputs.filename_spaces }}
           changelog: "${{ needs.changelog.outputs.changelog }}"
           changelog_type: markdown
-          game_versions: ${{ needs.modpack-info.outputs.version }}
+          game_versions: 9008 # 1.18.2      ${{ needs.modpack-info.outputs.version }}
           release_type: ${{ needs.modpack-info.outputs.release-type }}
