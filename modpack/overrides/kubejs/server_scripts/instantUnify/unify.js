@@ -11,7 +11,7 @@ global["HIDE_UNIFIED_ITEMS"] = true;
 // Mod priorities
 global["unifypriorities"] = [
   "minecraft",
-  "appliedenergistics2",
+  "ae2",
   "emendatusenigmatica",
   "thermal",
   "immersiveengineering",
@@ -47,7 +47,7 @@ var tags = [];
 // Regex of items to not unify
 global["UNIFY_SKIP"] = [
   { filter: /storage_blocks/, mods: "*" },
-  { filter: "forge:gems/certus_quartz", mods: ["appliedenergistics2"] },
+  { filter: "forge:gems/certus_quartz", mods: ["ae2"] },
 ];
 
 // Easier way to add multiple tags (feel free to add empty extra tags, this will ignore them)
@@ -188,7 +188,7 @@ onEvent("recipes", (event) => {
 
         if (tag.match(/(certus_quartz|charged_certus_quartz|fluix)/)) {
           // These need to be done on their own
-          let mod = "appliedenergistics2";
+          let mod = "ae2";
           for (let stack of stacks) {
             if (stack.getMod() == mod) {
               tagitems[tag] = stack.getId();

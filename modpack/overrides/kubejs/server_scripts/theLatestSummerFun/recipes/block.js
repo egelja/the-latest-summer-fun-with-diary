@@ -27,12 +27,8 @@ onEvent("recipes", (event) => {
   }
 
   // Sky stone dust
-  event.recipes.thermal
-    .pulverizer("appliedenergistics2:sky_dust", "appliedenergistics2:sky_stone_block")
-    .energy(2000);
-  event.recipes.immersiveengineering
-    .crusher("appliedenergistics2:sky_dust", "appliedenergistics2:sky_stone_block")
-    .energy(3000);
+  event.recipes.thermal.pulverizer("ae2:sky_dust", "ae2:sky_stone_block").energy(2000);
+  event.recipes.immersiveengineering.crusher("ae2:sky_dust", "ae2:sky_stone_block").energy(3000);
   // Ender dust
   event.recipes.thermal
     .pulverizer("emendatusenigmatica:ender_dust", "#forge:ender_pearls")
@@ -52,7 +48,10 @@ onEvent("recipes", (event) => {
   ]);
   // Certus to nether quartz
   event
-    .smelting(global["tagitems"]["forge:dusts/quartz"], "#forge:dusts/certus_quartz")
+    .smelting(
+      global["tagitems"]["forge:dusts/quartz"],
+      global["tagitems"]["forge:dusts/certus_quartz"]
+    )
     .xp(1)
     .cookingTime(300);
 

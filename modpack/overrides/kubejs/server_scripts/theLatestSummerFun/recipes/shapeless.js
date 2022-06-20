@@ -8,12 +8,9 @@
  */
 onEvent("recipes", (event) => {
   //! AE2 pure certus fix
-  event.shapeless(
-    "#forge:gems/certus_quartz",
-    "2x appliedenergistics2:purified_certus_quartz_crystal"
-  );
-  event.shapeless("#forge:gems/quartz", "2x appliedenergistics2:purified_nether_quartz_crystal");
-  event.shapeless("#forge:gems/fluix", "2x appliedenergistics2:purified_fluix_crystal");
+  // event.shapeless("#forge:gems/certus_quartz", "2x ae2:purified_certus_quartz_crystal");
+  // event.shapeless("#forge:gems/quartz", "2x ae2:purified_nether_quartz_crystal");
+  // event.shapeless("#forge:gems/fluix", "2x ae2:purified_fluix_crystal");
 
   //! Dye fixes
   event.shapeless("minecraft:red_dye", "minecraft:sweet_berries");
