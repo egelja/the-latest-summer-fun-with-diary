@@ -30,13 +30,13 @@ onEvent("recipes", (event) => {
   event.recipes.thermal.pulverizer("ae2:sky_dust", "ae2:sky_stone_block").energy(2000);
   event.recipes.immersiveengineering.crusher("ae2:sky_dust", "ae2:sky_stone_block").energy(3000);
   // Ender dust
-  event.recipes.thermal
-    .pulverizer("emendatusenigmatica:ender_dust", "#forge:ender_pearls")
-    .energy(2000);
-  event.recipes.immersiveengineering
-    .crusher("emendatusenigmatica:ender_dust", "#forge:ender_pearls")
-    .energy(3000);
-  event.recipes.create.milling("emendatusenigmatica:ender_dust", "#forge:ender_pearls");
+  // event.recipes.thermal
+  //   .pulverizer("emendatusenigmatica:ender_dust", "#forge:ender_pearls")
+  //   .energy(2000);
+  // event.recipes.immersiveengineering
+  //   .crusher("emendatusenigmatica:ender_dust", "#forge:ender_pearls")
+  //   .energy(3000);
+  // event.recipes.create.milling("emendatusenigmatica:ender_dust", "#forge:ender_pearls");
 
   //! AE2 fixes
   // Fluix mixing

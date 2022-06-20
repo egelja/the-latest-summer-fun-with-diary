@@ -14,5 +14,5 @@ onEvent("recipes", (event) => {
   event.replaceOutput({}, "thermal:niter", "#forge:gems/niter");
   event.replaceOutput({}, "thermal:bitumen", "#forge:gems/bitumen");
   event.replaceOutput({}, "thermal:coal_coke", "#forge:gems/coal_coke");
-  event.replaceOutput({}, "thermal:sawdust", "emendatusenigmatica:wood_dust");
+  // event.replaceOutput({}, "thermal:sawdust", "emendatusenigmatica:wood_dust");
 });

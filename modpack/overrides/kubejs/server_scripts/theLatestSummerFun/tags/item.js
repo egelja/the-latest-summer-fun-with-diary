@@ -11,8 +11,8 @@
  */
 onEvent("item.tags", (event) => {
   // Fix niter
-  event.add("forge:ores/niter", "emendatusenigmatica:potassium_nitrate_ore");
-  event.add("forge:ores/saltpeter", "emendatusenigmatica:potassium_nitrate_ore");
+  // event.add("forge:ores/niter", "emendatusenigmatica:potassium_nitrate_ore");
+  // event.add("forge:ores/saltpeter", "emendatusenigmatica:potassium_nitrate_ore");
 
   // Jelly/Jam tags
   event.add("forge:jelly_or_jam", ["kubejs:jelly"]);
@@ -20,32 +20,17 @@ onEvent("item.tags", (event) => {
   // Dimensional Shards
   event.add("forge:dimensional_ores", /rftoolsbase:dimensionalshard_/);
 
-  // Piglins
-  event.add("minecraft:piglin_loved", [
-    "druidcraft:amber",
-    "druidcraft:amber_block",
-    "#forge:dusts/gold",
-    "#forge:gears/gold",
-    "#forge:plates/gold",
-  ]);
-
   // Cryptic Redstone ore
   event.add("forge:ores/redstone", "byg:cryptic_redstone_ore");
 
   // IE Slag
   event.add("forge:slag", "immersiveengineering:slag");
 
-  // Raritanium
-  event.add("forge:ingots/copper", "calemiutils:raritanium");
-
   // Equality for Blueberries
   event.add("forge:crops/blueberries", "byg:blueberries");
 
   // Sawdust - bit jank but it should work
   event.add("forge:storage_blocks/wood", "thermal:sawdust_block");
-
-  // Lapis Lazuli Plate
-  event.add("forge:plates/lapis_lazuli", "emendatusenigmatica:lapis_plate");
 
   // Fluix block
   event.add("forge:storage_blocks", "ae2:fluix_block");

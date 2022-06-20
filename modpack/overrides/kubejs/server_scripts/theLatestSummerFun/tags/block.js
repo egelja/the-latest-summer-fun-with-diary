@@ -17,14 +17,14 @@ onEvent("block.tags", (event) => {
   }
 
   event.add("minecraft:beacon_base_blocks", [
-    "powah:energized_steel_block",
-    "powah:niotic_crystal_block",
-    "powah:spirited_crystal_block",
-    "powah:nitro_crystal_block",
-    "bigreactors:cyanite_block",
-    "psi:psimetal_block",
-    "psi:psigem_block",
-    "psi:ivory_psimetal_block",
-    "psi:ebony_psimetal_block",
+    // "powah:energized_steel_block",
+    // "powah:niotic_crystal_block",
+    // "powah:spirited_crystal_block",
+    // "powah:nitro_crystal_block",
+    // "bigreactors:cyanite_block",
+    // "psi:psimetal_block",
+    // "psi:psigem_block",
+    // "psi:ivory_psimetal_block",
+    // "psi:ebony_psimetal_block",
   ]);
 });

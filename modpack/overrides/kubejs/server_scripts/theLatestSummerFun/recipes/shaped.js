@@ -71,23 +71,23 @@ onEvent("recipes", (event) => {
   });
 
   //! More fiery glass uses
-  event.shaped("druidcraft:ceramic_lantern", [
-    " B ",
-    "BGB",
-    " B "
-  ], {
-    B: "#forge:ingots/brick",
-    G: "druidcraft:fiery_glass"
-  });
-  event.shaped("druidcraft:growth_lamp", [
-    "RER",
-    "EGE",
-    "RER"
-  ], {
-    R: "druidcraft:rockroot",
-    G: "druidcraft:fiery_glass",
-    E: "#forge:gems/emerald"
-  });
+  // event.shaped("druidcraft:ceramic_lantern", [
+  //   " B ",
+  //   "BGB",
+  //   " B "
+  // ], {
+  //   B: "#forge:ingots/brick",
+  //   G: "druidcraft:fiery_glass"
+  // });
+  // event.shaped("druidcraft:growth_lamp", [
+  //   "RER",
+  //   "EGE",
+  //   "RER"
+  // ], {
+  //   R: "druidcraft:rockroot",
+  //   G: "druidcraft:fiery_glass",
+  //   E: "#forge:gems/emerald"
+  // });
 
   //! Vanilla jetpack recipes
   //$ Iron

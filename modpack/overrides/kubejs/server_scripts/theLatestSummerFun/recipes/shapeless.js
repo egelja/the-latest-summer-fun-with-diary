@@ -17,7 +17,7 @@ onEvent("recipes", (event) => {
   event.shapeless("minecraft:red_dye", "byg:holly_berries");
   event.shapeless("minecraft:orange_dye", "byg:crimson_berries");
   event.shapeless("minecraft:yellow_dye", "byg:nightshade_berries");
-  event.shapeless("minecraft:purple_dye", "druidcraft:elderberries");
+  // event.shapeless("minecraft:purple_dye", "druidcraft:elderberries");
 
   //! Either Blueberry Can be Used for Either Recipe
   event.shapeless("byg:blueberry_pie", [
@@ -25,12 +25,12 @@ onEvent("recipes", (event) => {
     "minecraft:sugar",
     "#forge:eggs",
   ]);
-  event.shapeless("druidcraft:blueberry_muffin", [
-    "#forge:crops/blueberries",
-    "minecraft:sugar",
-    "#forge:eggs",
-    "#forge:crops/wheat",
-  ]);
+  // event.shapeless("druidcraft:blueberry_muffin", [
+  //   "#forge:crops/blueberries",
+  //   "minecraft:sugar",
+  //   "#forge:eggs",
+  //   "#forge:crops/wheat",
+  // ]);
 
   //! Carapace and chitin
   // event.shapeless("druidcraft:chitin", "4x mysticalworld:carapace");
@@ -173,11 +173,17 @@ onEvent("recipes", (event) => {
   // Rad-ish
   event.shapeless("kubejs:rad_ish", ["#forge:crops/radish", "#forge:ingots/uranium"]);
   // Capricorn
-  event.shapeless("kubejs:capricorn", ["kubejs:popcorn", "astralsorcery:stardust"]);
+  event.shapeless("kubejs:capricorn", [
+    "kubejs:popcorn",
+    /* "astralsorcery:stardust" */ "#forge:gunpowder",
+  ]);
   // Bully peanut
   event.shapeless("kubejs:bully_peanut", ["#forge:crops/peanut", "minecraft:tnt"]);
   // Sad pistachio
-  event.shapeless("kubejs:sad_pistachio", ["quark:cactus_paste", "minecraft:ghast_tear"]);
+  event.shapeless("kubejs:sad_pistachio", [
+    /* "quark:cactus_paste" */ "#forge:dyes/green",
+    "minecraft:ghast_tear",
+  ]);
   // PB&J Sandwich
   event.shapeless("kubejs:sandwich_lead_jelly", [
     "minecraft:bread",
