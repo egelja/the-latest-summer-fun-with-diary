@@ -51,7 +51,7 @@ onEvent("recipes", (event) => {
   //$ Default processed ores: doubling + rich slag + gravel + cobblestone
   const defaultOreProcessing = [
     //** Druidcraft
-    {
+    /*     {
       input: "druidcraft:rockroot_ore",
       grinding: {
         primaryOutput: "druidcraft:rockroot",
@@ -110,10 +110,10 @@ onEvent("recipes", (event) => {
         output: "druidcraft:fiery_glass",
         count: 3,
       },
-    },
+    }, */
     //** Quark
-    {
-      input: "quark:biotite_ore",
+/*    {
+       input: "quark:biotite_ore",
       grinding: {
         primaryOutput: "quark:biotite",
         secondaryOutput: "#forge:end_stones",
@@ -126,7 +126,7 @@ onEvent("recipes", (event) => {
         output: "quark:biotite",
         count: 2,
       },
-    },
+    }, */
     //** BYG Ores
     {
       input: "byg:pervaded_netherrack",
@@ -189,7 +189,7 @@ onEvent("recipes", (event) => {
         count: 1,
       },
     },
-    {
+/*     {
       input: "#forge:ores/charged_certus_quartz",
       grinding: {
         primaryOutput: "#forge:gems/charged_certus_quartz",
@@ -203,8 +203,24 @@ onEvent("recipes", (event) => {
         output: "#forge:gems/charged_certus_quartz",
         count: 1,
       },
-    },
+    }, */
     //** RFTools DimOres
+    {
+      input: "#forge:dimensional_ores",
+      grinding: {
+        primaryOutput: "rftoolsbase:dimensionalshard",
+        secondaryOutput: "rftoolsbase:dimensionalshard",
+        multipliers: {
+          amount: 1,
+          mainChance: 1,
+        },
+      },
+      smelting: {
+        output: "rftoolsbase:dimensionalshard",
+        count: 1,
+      },
+    },
+    //** Beyond earth
     {
       input: "#forge:dimensional_ores",
       grinding: {
@@ -294,12 +310,12 @@ onEvent("recipes", (event) => {
   );
 
   //! Melting Recipes
-  event.recipes.thermal.crucible(Fluid.of("thermal:resin", 250), "druidcraft:amber").energy(2000);
+  // event.recipes.thermal.crucible(Fluid.of("thermal:resin", 250), "druidcraft:amber").energy(2000);
 
   //! Dynamo fuels
   //$ Lapidary
-  event.recipes.thermal.lapidary_fuel("druidcraft:amber").energy(20000);
-  event.recipes.thermal.lapidary_fuel("druidcraft:moonstone").energy(500000);
+  // event.recipes.thermal.lapidary_fuel("druidcraft:amber").energy(20000);
+  // event.recipes.thermal.lapidary_fuel("druidcraft:moonstone").energy(500000);
   event.recipes.thermal.lapidary_fuel("botania:mana_diamond").energy(650000);
   event.recipes.thermal.lapidary_fuel("botania:dragonstone").energy(750000);
   // event.recipes.thermal.lapidary_fuel("psi:psigem").energy(600000);
@@ -325,11 +341,11 @@ onEvent("recipes", (event) => {
 
   //! C&B Smithing
   // Bitsaw
-  event.smithing(
+/*   event.smithing(
     "chiselsandbits:bitsaw_netherite",
     "chiselsandbits:bitsaw_diamond",
     "minecraft:netherite_ingot"
-  );
+  ); */
   event.smithing(
     "chiselsandbits:chisel_netherite",
     "chiselsandbits:chisel_diamond",
@@ -337,7 +353,7 @@ onEvent("recipes", (event) => {
   );
 
   //! Moonstone
-  const moonstoneItems = [
+/*   const moonstoneItems = [
     // Armor
     "helmet",
     "chestplate",
@@ -361,7 +377,7 @@ onEvent("recipes", (event) => {
     "druidcraft:moonstone_sickle",
     "druidcraft:diamond_sickle",
     "druidcraft:moonstone"
-  );
+  ); */
 
   //! Gem -> gear compressing
   const gems = ["diamond", "emerald", "lapis", "quartz"];

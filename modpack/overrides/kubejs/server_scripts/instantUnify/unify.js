@@ -183,8 +183,8 @@ onEvent("recipes", (event) => {
       let stacks = ingr.getStacks().toArray();
 
       // Only load tags with 2 or more items
-      if (stacks.length > 1) {
-        truetags.push(tag);
+      if (stacks.length > 0) {
+        if (stacks.length > 1) truetags.push(tag);
 
         if (tag.match(/(certus_quartz|charged_certus_quartz|fluix)/)) {
           // These need to be done on their own
