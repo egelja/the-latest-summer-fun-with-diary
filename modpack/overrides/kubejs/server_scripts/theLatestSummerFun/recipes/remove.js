@@ -98,6 +98,8 @@ onEvent("recipes", (event) => {
   //! Remove by ID
   // New concrete
   event.remove({ id: "immersiveengineering:crafting/concrete2" });
+  // Beyond earth steel
+  event.remove({ id: "beyond_earth:steel_ingot_blasting" });
 
   //! Completely remove items
   const completelyRemove = [
