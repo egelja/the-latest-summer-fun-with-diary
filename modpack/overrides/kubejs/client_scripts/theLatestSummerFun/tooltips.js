@@ -28,20 +28,8 @@ onEvent("item.tooltip", (tooltip) => {
   // IE Slag
   tooltip.add("immersiveengineering:slag", "Unobtainable and useless. Use Thermal's Slag instead!");
 
-
   // Amber
-  tooltip.add(["druidcraft:amber", "druidcraft:amber_block"], "Piglins will enjoy this.");
-
-  // CM4
-  tooltip.add(
-    [
-      "compactmachines:machine_small",
-      "compactmachines:machine_normal",
-      "compactmachines:machine_giant",
-      "compactmachines:machine_maximum",
-    ],
-    Text.yellow("Crafting recipe currently not working :(")
-  );
+  // tooltip.add(["druidcraft:amber", "druidcraft:amber_block"], "Piglins will enjoy this.");
 
   // TOP config
   tooltip.add("theoneprobe:probenote", "Shift-right click to configure The One Probe.");
