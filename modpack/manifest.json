@@ -604,6 +604,15 @@
       }
     },
     {
+      "projectID": 272335,
+      "fileID": 3804158,
+      "required": true,
+      "__meta": {
+        "name": "Cucumber Library",
+        "explicit": false
+      }
+    },
+    {
       "projectID": 273279,
       "fileID": 3584113,
       "required": true,
@@ -677,6 +686,17 @@
       "__meta": {
         "name": "Placebo",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 284497,
+      "fileID": 3802278,
+      "required": true,
+      "__meta": {
+        "name": "Iron Jetpacks",
+        "dependencies": [
+          272335
+        ]
       }
     },
     {
