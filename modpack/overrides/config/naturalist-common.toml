@@ -23,9 +23,6 @@
 	#Firefly spawn weight
 	#Range: 0 ~ 1000
 	fireflySpawnWeight = 8
-	#Bird spawn weight
-	#Range: 0 ~ 1000
-	birdSpawnWeight = 10
 	#Butterfly spawn weight
 	#Range: 0 ~ 1000
 	butterflySpawnWeight = 4
@@ -35,4 +32,16 @@
 	#Fox spawn weight in forest biomes
 	#Range: 0 ~ 1000
 	forestFoxSpawnWeight = 4
+	#Bluejay spawn weight
+	#Range: 0 ~ 1000
+	bluejaySpawnWeight = 8
+	#Canary spawn weight
+	#Range: 0 ~ 1000
+	canarySpawnWeight = 8
+	#Cardinal spawn weight
+	#Range: 0 ~ 1000
+	cardinalSpawnWeight = 8
+	#Robin spawn weight
+	#Range: 0 ~ 1000
+	robinSpawnWeight = 8
 
