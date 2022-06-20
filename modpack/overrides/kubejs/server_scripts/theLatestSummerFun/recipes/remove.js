@@ -103,12 +103,17 @@ onEvent("recipes", (event) => {
 
   //! Completely remove items
   const completelyRemove = [
-    // Iron Jetpacks
+    //** Iron Jetpacks
     // "ironjetpacks:strap",
     // "ironjetpacks:basic_coil",
     // "ironjetpacks:advanced_coil",
     // "ironjetpacks:elite_coil",
     // "ironjetpacks:ultimate_coil",
+    //** Create Stuff Additions - Copper armor
+    "create_stuff_additions:copper_armor_helmet",
+    "create_stuff_additions:copper_armor_chestplate",
+    "create_stuff_additions:copper_armor_leggings",
+    "create_stuff_additions:copper_armor_boots",
   ];
   for (let item of completelyRemove) {
     event.remove({ output: item });
