@@ -15,6 +15,8 @@ onEvent("item.registry", (event) => {
    ? Yes but you eat them https://github.com/KubeJS-Mods/KubeJS/issues/98.
    ? YAY! EXTRA FIBER AND SHARPER TEETH.
    */
+  // Smeltery kit
+  event.create("smeltery_kit").displayName("Smeltery Kit").unstackable()
   // Bottled Syrup - glass_bottle
   event
     .create("syrup_bottle")
