@@ -46,14 +46,6 @@ onEvent("recipes", (event) => {
     "#forge:gems/charged_certus_quartz",
     "#forge:gems/quartz",
   ]);
-  // Certus to nether quartz
-  event
-    .smelting(
-      global["tagitems"]["forge:dusts/quartz"],
-      global["tagitems"]["forge:dusts/certus_quartz"]
-    )
-    .xp(1)
-    .cookingTime(300);
 
   //! Ore processing
   //$ Default processed ores: doubling + rich slag + gravel + cobblestone
