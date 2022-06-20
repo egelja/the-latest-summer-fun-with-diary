@@ -54,9 +54,10 @@ onEvent("recipes", (event) => {
   // Syrup
   event.shapeless("4x kubejs:syrup_bottle", ["thermal:syrup_bucket", "4x minecraft:glass_bottle"]);
   // Peanut Butter
+  // TODO add botania mortar and pestle?
   event.shapeless("kubejs:peanut_butter", [
     "#forge:crops/peanut",
-    "botania:pestle_and_mortar",
+    "reliquary:apothecary_mortar",
     "minecraft:glass_bottle",
   ]);
   // Jelly
