@@ -105,7 +105,7 @@ Please obtain the following before getting started:
 2. Follow any setup directions if needed.
 3. Click on the search bar in CurseForge or the bottom-left plus button in GDLauncher.
    - In GDLauncher, select "Browse modpacks".
-4. In the search bar, type in `thepuncrafter`.
+4. In the search bar, type in `thepuncrafter2`.
 5. Select `The Latest Summer Fun: Super Special New Edition (Gluten Free)`.
 6. Click the download button
    - In GDLauncher, you'll have to rename the modpack profile, type in something like `The Latest Summer Fun`.
