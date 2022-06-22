@@ -129,7 +129,7 @@
     },
     {
       "projectID": 228525,
-      "fileID": 3832270,
+      "fileID": 3843300,
       "required": true,
       "__meta": {
         "name": "Bookshelf",
@@ -266,7 +266,7 @@
     },
     {
       "projectID": 238086,
-      "fileID": 3828274,
+      "fileID": 3841778,
       "required": true,
       "__meta": {
         "name": "KubeJS",
@@ -307,7 +307,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 3833809,
+      "fileID": 3842985,
       "required": true,
       "__meta": {
         "name": "CraftTweaker",
@@ -370,7 +370,7 @@
     },
     {
       "projectID": 242818,
-      "fileID": 3819273,
+      "fileID": 3843718,
       "required": true,
       "__meta": {
         "name": "CodeChicken Lib 1.8.+",
@@ -379,7 +379,7 @@
     },
     {
       "projectID": 243121,
-      "fileID": 3800462,
+      "fileID": 3840125,
       "required": true,
       "__meta": {
         "name": "Quark",
@@ -449,7 +449,7 @@
     },
     {
       "projectID": 250277,
-      "fileID": 3823224,
+      "fileID": 3844161,
       "required": true,
       "__meta": {
         "name": "Extreme Reactors",
@@ -836,7 +836,7 @@
     },
     {
       "projectID": 306770,
-      "fileID": 3831438,
+      "fileID": 3843443,
       "required": true,
       "__meta": {
         "name": "Patchouli",
@@ -874,7 +874,7 @@
     },
     {
       "projectID": 309927,
-      "fileID": 3748873,
+      "fileID": 3841948,
       "required": true,
       "__meta": {
         "name": "Curios API (Forge)",
@@ -1065,7 +1065,7 @@
     },
     {
       "projectID": 347706,
-      "fileID": 3814226,
+      "fileID": 3841160,
       "required": true,
       "__meta": {
         "name": "RFTools Builder",
@@ -1150,7 +1150,7 @@
     },
     {
       "projectID": 361026,
-      "fileID": 3838251,
+      "fileID": 3842646,
       "required": true,
       "__meta": {
         "name": "Occultism",
@@ -1207,7 +1207,7 @@
     },
     {
       "projectID": 376876,
-      "fileID": 3838332,
+      "fileID": 3841103,
       "required": true,
       "__meta": {
         "name": "Tinkers' Reforged",
@@ -1259,7 +1259,7 @@
     },
     {
       "projectID": 388172,
-      "fileID": 3827265,
+      "fileID": 3843471,
       "required": true,
       "__meta": {
         "name": "GeckoLib",
@@ -1421,7 +1421,7 @@
     },
     {
       "projectID": 419699,
-      "fileID": 3834393,
+      "fileID": 3843622,
       "required": true,
       "__meta": {
         "name": "Architectury API (Fabric/Forge)",
@@ -1496,7 +1496,7 @@
     },
     {
       "projectID": 438332,
-      "fileID": 3825116,
+      "fileID": 3840235,
       "required": true,
       "__meta": {
         "name": "SuperMartijn642's Config Lib",
@@ -1728,7 +1728,7 @@
     },
     {
       "projectID": 499980,
-      "fileID": 3828748,
+      "fileID": 3842421,
       "required": true,
       "__meta": {
         "name": "Selene Lib",
