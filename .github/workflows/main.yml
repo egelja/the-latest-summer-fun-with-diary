@@ -67,7 +67,7 @@ jobs:
         with:
           myToken: ${{ secrets.GITHUB_TOKEN }}
       - name: Write changelog to file
-        uses: DamianReeves/write-file-action@v1.0
+        uses: DamianReeves/write-file-action@v1.1
         with:
           path: ./CHANGELOG.md
           contents: "${{ steps.changelog.outputs.changelog }}"
